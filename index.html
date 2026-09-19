@@ -930,6 +930,7 @@
       document.getElementById('kpiConsult').innerText = `${avgConsult}p`;
 
       renderFunnelAndStaff(kp, day.staff);
+      renderTopSlowest(day.top_slowest);
       renderTrendChart();
     }
 
@@ -1050,13 +1051,11 @@
       });
     }
 
-    function max(a, b) { return a > b ? a : b; }
-    function round(v, n) { return Math.round(v * Math.pow(10, n)) / Math.pow(10, n); }
-
-      // Top Slowest
+    function renderTopSlowest(topList) {
       const slowBody = document.querySelector('#slowestTable tbody');
+      if (!slowBody) return;
       slowBody.innerHTML = '';
-      (day.top_slowest || []).forEach((sl, i) => {
+      (topList || []).forEach((sl, i) => {
         let tr = document.createElement('tr');
         tr.innerHTML = `
           <td><strong>${i + 1}</strong></td>
@@ -1068,9 +1067,6 @@
         `;
         slowBody.appendChild(tr);
       });
-
-      // Trend Chart
-      renderTrendChart();
     }
 
     function renderTrendChart() {
