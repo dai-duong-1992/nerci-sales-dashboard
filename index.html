@@ -3,62 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NERCI Sales Performance Metrics Dashboard</title>
+  <title>NERCI Sales & SLA Multi-Channel Intelligence Dashboard</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg-primary: #0f172a;
-      --bg-card: #1e293b;
-      --bg-card-hover: #24344d;
-      --border: #334155;
-      --text-main: #f8fafc;
+      --bg-primary: #0b0f19;
+      --bg-card: #151e2e;
+      --bg-card-hover: #1c283d;
+      --border: #24344d;
+      --border-accent: #334e68;
+      --text-main: #f1f5f9;
       --text-muted: #94a3b8;
+      --text-dim: #64748b;
       --accent-blue: #38bdf8;
       --accent-teal: #2dd4bf;
       --accent-green: #4ade80;
       --accent-amber: #fbbf24;
       --accent-rose: #f43f5e;
       --accent-purple: #c084fc;
-      --font-main: 'Be Vietnam Pro', sans-serif;
+      --font-main: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, sans-serif;
       --font-mono: 'JetBrains Mono', monospace;
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       background-color: var(--bg-primary);
       color: var(--text-main);
       font-family: var(--font-main);
       padding: 24px;
       min-height: 100vh;
+      line-height: 1.5;
     }
 
-    .container {
-      max-width: 1440px;
-      margin: 0 auto;
-    }
+    .container { max-width: 1560px; margin: 0 auto; }
 
-    /* Top Navigation / Header */
+    /* Top App Bar */
     header {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 20px 24px;
-      background: linear-gradient(135deg, rgba(30, 41, 59, 0.9), rgba(15, 23, 42, 0.9));
+      background: linear-gradient(135deg, rgba(21, 30, 46, 0.95), rgba(11, 15, 25, 0.95));
       border: 1px solid var(--border);
       border-radius: 16px;
       margin-bottom: 24px;
-      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      flex-wrap: wrap;
+      gap: 16px;
     }
 
-    .brand-area h1 {
+    .brand-title {
       font-size: 22px;
       font-weight: 800;
       letter-spacing: -0.5px;
@@ -70,42 +67,77 @@
       gap: 10px;
     }
 
-    .brand-area p {
-      font-size: 13px;
-      color: var(--text-muted);
-      margin-top: 4px;
-    }
+    .brand-sub { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
 
-    .badge-secure {
-      display: inline-flex;
+    .control-panel {
+      display: flex;
       align-items: center;
-      gap: 6px;
-      padding: 4px 10px;
-      background: rgba(45, 212, 191, 0.1);
-      border: 1px solid rgba(45, 212, 191, 0.3);
-      color: var(--accent-teal);
-      border-radius: 999px;
-      font-size: 11px;
-      font-weight: 600;
-      font-family: var(--font-mono);
+      gap: 16px;
+      flex-wrap: wrap;
     }
 
-    .meta-box {
-      text-align: right;
+    .date-picker-box {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(15, 23, 42, 0.8);
+      padding: 8px 16px;
+      border: 1px solid var(--border-accent);
+      border-radius: 10px;
     }
 
-    .meta-box .date-tag {
-      font-size: 14px;
-      font-weight: 700;
-      color: #fff;
-    }
-
-    .meta-box .update-time {
+    .date-picker-box label {
       font-size: 12px;
-      color: var(--text-muted);
-      margin-top: 4px;
-      font-family: var(--font-mono);
+      font-weight: 700;
+      color: var(--accent-blue);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
     }
+
+    select {
+      background: #1e293b;
+      color: #fff;
+      border: 1px solid var(--border);
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 600;
+      outline: none;
+      cursor: pointer;
+    }
+
+    /* Philosophy Banner (Explaining Web SLA vs Chat SLA) */
+    .philosophy-strip {
+      background: rgba(30, 41, 59, 0.5);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-bottom: 24px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    @media (max-width: 900px) {
+      .philosophy-strip { grid-template-columns: 1fr; }
+    }
+
+    .philo-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .philo-icon {
+      font-size: 20px;
+      padding: 8px;
+      background: rgba(56, 189, 248, 0.1);
+      border-radius: 8px;
+    }
+
+    .philo-text h4 { font-size: 13px; font-weight: 700; color: #fff; margin-bottom: 3px; }
+    .philo-text p { font-size: 12px; color: var(--text-muted); }
 
     /* KPI Grid */
     .kpi-grid {
@@ -120,9 +152,9 @@
       border: 1px solid var(--border);
       border-radius: 14px;
       padding: 20px;
-      transition: transform 0.2s, background-color 0.2s;
       position: relative;
       overflow: hidden;
+      transition: transform 0.2s, background-color 0.2s;
     }
 
     .kpi-card:hover {
@@ -133,16 +165,14 @@
     .kpi-card::before {
       content: "";
       position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
+      top: 0; left: 0; right: 0;
       height: 3px;
       background: var(--card-color, var(--accent-blue));
     }
 
     .kpi-title {
-      font-size: 12px;
-      font-weight: 600;
+      font-size: 11px;
+      font-weight: 700;
       color: var(--text-muted);
       text-transform: uppercase;
       letter-spacing: 0.5px;
@@ -152,19 +182,42 @@
     }
 
     .kpi-value {
-      font-size: 30px;
+      font-size: 28px;
       font-weight: 800;
-      margin: 10px 0 4px 0;
+      margin: 8px 0 4px 0;
       font-family: var(--font-mono);
       color: #ffffff;
     }
 
-    .kpi-subtext {
-      font-size: 12px;
-      color: var(--text-muted);
+    .kpi-subtext { font-size: 12px; color: var(--text-muted); }
+
+    /* Panels & Tables */
+    .panel {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px;
+      margin-bottom: 24px;
     }
 
-    /* Layout Grid */
+    .panel-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .panel-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
     .grid-2 {
       display: grid;
       grid-template-columns: 2fr 1fr;
@@ -180,56 +233,23 @@
     }
 
     @media (max-width: 1024px) {
-      .grid-2, .grid-equal {
-        grid-template-columns: 1fr;
-      }
+      .grid-2, .grid-equal { grid-template-columns: 1fr; }
     }
 
-    .panel {
-      background-color: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 22px;
-    }
-
-    .panel-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 18px;
-    }
-
-    .panel-title {
-      font-size: 15px;
-      font-weight: 700;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .chart-container {
-      position: relative;
-      height: 280px;
-      width: 100%;
-    }
+    .chart-container { position: relative; height: 280px; width: 100%; }
 
     /* Table Styles */
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 13px;
-    }
-
+    table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
     th {
       text-align: left;
       padding: 10px 12px;
       color: var(--text-muted);
       border-bottom: 1px solid var(--border);
-      font-weight: 600;
+      font-weight: 700;
       font-size: 11px;
       text-transform: uppercase;
       letter-spacing: 0.5px;
+      background: rgba(15, 23, 42, 0.4);
     }
 
     td {
@@ -238,9 +258,7 @@
       color: var(--text-main);
     }
 
-    tr:hover td {
-      background-color: rgba(255, 255, 255, 0.02);
-    }
+    tr:hover td { background-color: rgba(255, 255, 255, 0.02); }
 
     .badge {
       display: inline-block;
@@ -255,15 +273,41 @@
     .badge-warning { background: rgba(251, 191, 36, 0.15); color: var(--accent-amber); }
     .badge-danger { background: rgba(244, 63, 94, 0.15); color: var(--accent-rose); }
     .badge-info { background: rgba(56, 189, 248, 0.15); color: var(--accent-blue); }
+    .badge-purple { background: rgba(192, 132, 252, 0.15); color: var(--accent-purple); }
 
-    /* Funnel visual list */
-    .funnel-list {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      margin-top: 10px;
+    .expandable-btn {
+      background: #1e293b;
+      border: 1px solid var(--border);
+      color: var(--accent-blue);
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: var(--font-mono);
     }
 
+    .expandable-btn:hover { background: #24344d; }
+
+    .channel-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 6px;
+    }
+
+    .chip {
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--border);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .chip strong { color: var(--text-main); }
+
+    /* Funnel visual list */
+    .funnel-list { display: flex; flex-direction: column; gap: 10px; margin-top: 10px; }
     .funnel-step {
       display: flex;
       align-items: center;
@@ -273,22 +317,13 @@
       border-radius: 8px;
       border-left: 4px solid var(--accent-blue);
     }
-
-    .funnel-label {
-      font-size: 13px;
-      font-weight: 600;
-    }
-
-    .funnel-val {
-      font-family: var(--font-mono);
-      font-weight: 700;
-      font-size: 15px;
-    }
+    .funnel-label { font-size: 12.5px; font-weight: 600; }
+    .funnel-val { font-family: var(--font-mono); font-weight: 700; font-size: 14px; }
 
     footer {
       text-align: center;
       padding: 24px;
-      color: var(--text-muted);
+      color: var(--text-dim);
       font-size: 12px;
       border-top: 1px solid var(--border);
       margin-top: 40px;
@@ -297,88 +332,97 @@
 </head>
 <body>
   <div class="container">
-    <!-- Header -->
+    <!-- Top Header -->
     <header>
-      <div class="brand-area">
-        <h1>📊 NERCI Sales & SLA Metrics Intelligence</h1>
-        <p>Báo cáo hiệu suất đội ngũ tư vấn, phân luồng khách hàng và tỷ lệ chuyển đổi đa kênh</p>
-        <div style="margin-top: 8px;">
-          <span class="badge-secure">🛡️ ZERO-PII SECURE • AGGREGATED METRICS</span>
-        </div>
+      <div>
+        <div class="brand-title">📊 NERCI Sales & SLA Multi-Channel Intelligence</div>
+        <div class="brand-sub">Đo lường SLA Website vs Chat Messenger • Tốc độ chuyển đổi SQL • Thời lượng tư vấn</div>
       </div>
-      <div class="meta-box">
-        <div class="date-tag" id="targetDate">Kỳ Báo Cáo: Loading...</div>
-        <div class="update-time" id="updatedAt">Đồng bộ: ...</div>
+      <div class="control-panel">
+        <div class="date-picker-box">
+          <label for="dateSelect">Kỳ Báo Cáo:</label>
+          <select id="dateSelect" onchange="switchDate(this.value)">
+            <!-- Populated dynamically -->
+          </select>
+        </div>
+        <span class="badge badge-info" id="statusBadge">🛡️ Zero-PII Protected</span>
       </div>
     </header>
 
-    <!-- Top KPI Cards -->
+    <!-- Philosophy: Website SLA vs Chat SLA -->
+    <div class="philosophy-strip">
+      <div class="philo-item">
+        <div class="philo-icon" style="color: var(--accent-amber);">🌐</div>
+        <div class="philo-text">
+          <h4>SLA Kênh Website (Lead Form / Web Plugin)</h4>
+          <p>Thời gian từ khi khách điền Form/gửi lời nhắn trên web đến khi Telesale/Tư vấn viên gọi điện hoặc chuyển trạng thái sang Đã tiếp cận trên CRM (Tiêu chuẩn: &lt; 15 phút).</p>
+        </div>
+      </div>
+      <div class="philo-item">
+        <div class="philo-icon" style="color: var(--accent-teal);">💬</div>
+        <div class="philo-text">
+          <h4>SLA Kênh Chat Đa Kênh (Messenger / Zalo / TikTok)</h4>
+          <p>Tách bạch 2 tầng: <strong>FRT (First Response)</strong> đo tốc độ chào khách câu đầu (&lt; 3 phút), và <strong>MRT (Ongoing Turnaround)</strong> đo độ trễ trung bình của <em>toàn bộ</em> các lượt chat tiếp theo để tránh ngâm khách.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- KPI Strip (6 Cards) -->
     <div class="kpi-grid">
       <div class="kpi-card" style="--card-color: var(--accent-blue);">
         <div class="kpi-title">Tổng Tương Tác <span>💬</span></div>
-        <div class="kpi-value" id="kpiTouchpoints">0</div>
-        <div class="kpi-subtext" id="kpiTouchpointsSub">Inbox + Comment</div>
+        <div class="kpi-value" id="kpiTouch">0</div>
+        <div class="kpi-subtext" id="kpiTouchSub">Inbox + Comment</div>
       </div>
       <div class="kpi-card" style="--card-color: var(--accent-green);">
         <div class="kpi-title">SĐT Thu Thập <span>📞</span></div>
         <div class="kpi-value" id="kpiPhones" style="color: var(--accent-green);">0</div>
-        <div class="kpi-subtext" id="kpiCrSub">Tỷ lệ chốt SĐT: 0%</div>
-      </div>
-      <div class="kpi-card" style="--card-color: var(--accent-purple);">
-        <div class="kpi-title">Đơn Chốt / Khám <span>🎯</span></div>
-        <div class="kpi-value" id="kpiClosedDeals" style="color: var(--accent-purple);">0</div>
-        <div class="kpi-subtext">Đạt chuẩn tag_30</div>
+        <div class="kpi-subtext" id="kpiCrSub">Tỷ lệ chốt: 0%</div>
       </div>
       <div class="kpi-card" style="--card-color: var(--accent-amber);">
-        <div class="kpi-title">Tốc Độ SLA TB <span>⚡</span></div>
-        <div class="kpi-value" id="kpiSla">0s</div>
-        <div class="kpi-subtext" id="kpiMedianSla">Trung vị: 0s</div>
+        <div class="kpi-title">SLA Chat Câu Đầu (FRT) <span>⚡</span></div>
+        <div class="kpi-value" id="kpiFrt">0s</div>
+        <div class="kpi-subtext" id="kpiFrtMedian">Trung vị: 0s</div>
       </div>
       <div class="kpi-card" style="--card-color: var(--accent-teal);">
-        <div class="kpi-title">Khách Hàng Mới <span>👥</span></div>
-        <div class="kpi-value" id="kpiNewCust">0</div>
-        <div class="kpi-subtext">Hội thoại lần đầu</div>
+        <div class="kpi-title">Độ Trễ Chat Giữa Chừng (MRT) <span>🔄</span></div>
+        <div class="kpi-value" id="kpiOngoing">0s</div>
+        <div class="kpi-subtext">Đo trên mọi lượt reply</div>
+      </div>
+      <div class="kpi-card" style="--card-color: var(--accent-purple);">
+        <div class="kpi-title">Thời Gian Chốt SQL <span>⏳</span></div>
+        <div class="kpi-value" id="kpiSqlTime">0p</div>
+        <div class="kpi-subtext" id="kpiSqlCount">Từ Lead sang SQL</div>
+      </div>
+      <div class="kpi-card" style="--card-color: var(--accent-rose);">
+        <div class="kpi-title">Thời Lượng Tư Vấn TB <span>⏱️</span></div>
+        <div class="kpi-value" id="kpiDuration">0p</div>
+        <div class="kpi-subtext">Phút / 1 Khách hàng</div>
       </div>
     </div>
 
-    <!-- Section 1: Trend 7d & Funnel -->
-    <div class="grid-2">
-      <div class="panel">
-        <div class="panel-header">
-          <div class="panel-title">📈 Xu Hướng Tương Tác & SĐT 7 Ngày Gần Nhất</div>
-        </div>
-        <div class="chart-container">
-          <canvas id="trendChart"></canvas>
-        </div>
-      </div>
-      <div class="panel">
-        <div class="panel-header">
-          <div class="panel-title">🌪️ Phễu Chuyển Đổi Khách Hàng</div>
-        </div>
-        <div class="funnel-list" id="funnelContainer">
-          <!-- Populated by JS -->
-        </div>
-      </div>
-    </div>
-
-    <!-- Section 2: Staff Performance Leaderboard -->
-    <div class="panel" style="margin-bottom: 24px;">
+    <!-- Section 1: Master Staff Performance & Deep SLA Breakdown -->
+    <div class="panel">
       <div class="panel-header">
-        <div class="panel-title">🏆 Bảng Xếp Hạng Hiệu Suất Tư Vấn Viên (SLA & Tỷ Lệ Chốt SĐT)</div>
-        <span class="badge badge-info">Top Nhân Viên Hôm Nay</span>
+        <div>
+          <div class="panel-title">🏆 Bảng Đo Lường Toàn Diện Nhân Viên: SLA Chat, SLA Giữa Chừng, Thời Lượng Tư Vấn & Hiệu Suất Từng Kênh</div>
+          <div style="font-size: 12px; color: var(--text-muted); margin-top: 4px;">Phân tích chi tiết độ trễ câu đầu (FRT) vs độ trễ các câu tiếp sau (MRT) và tốc độ thẩm định chốt đơn (Lead ➔ SQL)</div>
+        </div>
       </div>
       <div style="overflow-x: auto;">
         <table id="staffTable">
           <thead>
             <tr>
-              <th>Họ Tên Tư Vấn Viên</th>
-              <th>Tổng Hội Thoại</th>
-              <th>SĐT Chốt</th>
-              <th>Tỷ Lệ Lấy Số (%)</th>
-              <th>SLA TB (Giây)</th>
-              <th>SLA Trung Vị</th>
-              <th>Chuẩn SLA &lt; 5 Phút</th>
-              <th>Đánh Giá</th>
+              <th>Nhân Viên Tư Vấn</th>
+              <th>Hội Thoại</th>
+              <th>SĐT Lấy</th>
+              <th>CR (%)</th>
+              <th>FRT Câu Đầu (TB / Vị)</th>
+              <th>MRT Giữa Chừng</th>
+              <th>Lead ➔ SQL (TB / Vị)</th>
+              <th>Thời Lượng Tư Vấn</th>
+              <th>SLA &lt; 5p</th>
+              <th>Kênh Phụ Trách & Tỷ Lệ</th>
             </tr>
           </thead>
           <tbody>
@@ -388,31 +432,51 @@
       </div>
     </div>
 
-    <!-- Section 3: Hourly Heatmap & Channel Mix -->
-    <div class="grid-equal">
+    <!-- Section 2: Trend 7d & Funnel -->
+    <div class="grid-2">
       <div class="panel">
         <div class="panel-header">
-          <div class="panel-title">⏰ Phân Bổ Tương Tác & Thu Thập SĐT Theo Khung Giờ</div>
+          <div class="panel-title">📈 Diễn Biến Sản Lượng & Tỷ Lệ Chốt SĐT (Chuỗi 7 Ngày Gần Nhất)</div>
         </div>
         <div class="chart-container">
-          <canvas id="hourlyChart"></canvas>
+          <canvas id="trendChart"></canvas>
         </div>
       </div>
       <div class="panel">
         <div class="panel-header">
-          <div class="panel-title">🌐 Tỷ Trọng Sản Lượng Giữa Các Kênh & Fanpage</div>
+          <div class="panel-title">🌪️ Phễu Chuyển Đổi Khách Hàng (Funnel)</div>
+        </div>
+        <div class="funnel-list" id="funnelContainer">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3: Channel Matrix & Hourly -->
+    <div class="grid-equal">
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">🌐 So Sánh Hiệu Suất Từng Kênh (Website vs Messenger vs Zalo vs TikTok)</div>
         </div>
         <div class="chart-container">
           <canvas id="channelChart"></canvas>
         </div>
       </div>
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">⏰ Phân Bổ Tương Tác & Lấy Số Theo Khung Giờ (00:00 - 23:00)</div>
+        </div>
+        <div class="chart-container">
+          <canvas id="hourlyChart"></canvas>
+        </div>
+      </div>
     </div>
 
-    <!-- Section 4: Dropoff Reasons -->
+    <!-- Section 4: Dropoff reasons -->
     <div class="panel">
       <div class="panel-header">
-        <div class="panel-title">⚠️ Phân Tích Rào Cản & Lý Do Khách Ngưng Tương Tác (Drop-off Tags)</div>
-        <span class="badge badge-danger">Cần Tối Ưu Kịch Bản Chat</span>
+        <div class="panel-title">⚠️ Phân Tích Rào Cản Khiến Khách Ngưng Tương Tác (Drop-off Tag Analysis)</div>
+        <span class="badge badge-danger">Tối Ưu Kịch Bản Phản Hồi</span>
       </div>
       <div class="chart-container" style="height: 220px;">
         <canvas id="dropoffChart"></canvas>
@@ -420,93 +484,163 @@
     </div>
 
     <footer>
-      NERCI Medical Nutrition Intelligence System • Powered by Antigravity Agent & Pancake Engine • Host on GitHub Pages
+      NERCI Medical Nutrition • Sales & SLA Multi-Channel Intelligence System • Deployed on GitHub Pages
     </footer>
   </div>
 
   <script>
-    // Embedded initial data or fetch dynamically from dashboard_metrics.json
-    async function loadDashboard() {
-      let data = {"metadata": {"title": "NERCI Sales Performance Metrics", "updated_at": "2026-09-19 09:25:16 (GMT+7)", "target_date": "2026-09-17", "data_source": "Pancake API Aggregation", "security_level": "Aggregated - Zero PII"}, "kpis": {"total_touchpoints": 576, "customer_inbox": 496, "customer_comments": 80, "new_customers": 153, "phones_captured": 47, "phone_conversion_rate": 8.16, "team_avg_sla_sec": 997.1, "team_median_sla_sec": 142, "closed_deals": 7, "sql_leads": 0, "spam_blocked": 6, "unresponsive_leads": 68}, "funnel": {"touchpoints": 576, "new_inquiries": 153, "phones_captured": 47, "sql_qualified": 32, "closed_deals": 7}, "staff": [{"name": "Nguyễn Phương Uyên", "inbox": 492, "comments": 0, "touchpoints": 492, "phones": 8, "conversion_rate": 1.63, "avg_sla_sec": 1782.8, "median_sla_sec": 1196, "compliance_5m_pct": 41.7, "resp_count": 12}, {"name": "Nguyễn Vũ Bảo Như", "inbox": 149, "comments": 0, "touchpoints": 149, "phones": 3, "conversion_rate": 2.01, "avg_sla_sec": 351.5, "median_sla_sec": 167, "compliance_5m_pct": 72.7, "resp_count": 11}, {"name": "Nguyễn Thiện Nhân", "inbox": 194, "comments": 0, "touchpoints": 194, "phones": 2, "conversion_rate": 1.03, "avg_sla_sec": 2022.4, "median_sla_sec": 2520, "compliance_5m_pct": 37.5, "resp_count": 8}, {"name": "Hồ Dương Xuân Diệu", "inbox": 79, "comments": 0, "touchpoints": 79, "phones": 2, "conversion_rate": 2.53, "avg_sla_sec": 123.4, "median_sla_sec": 112, "compliance_5m_pct": 90.0, "resp_count": 10}, {"name": "Đặng Hoàng Anh Thư", "inbox": 17, "comments": 0, "touchpoints": 17, "phones": 0, "conversion_rate": 0.0, "avg_sla_sec": 101.0, "median_sla_sec": 142, "compliance_5m_pct": 100.0, "resp_count": 2}], "channels": [{"id": "211371845395336", "name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng", "platform": "facebook", "new_customers": 24, "inbox": 53, "comments": 1, "phones": 23, "conversion_rate": 42.59}, {"id": "106287525340056", "name": "NERCI - Viện Tư Vấn Dinh Dưỡng", "platform": "facebook", "new_customers": 38, "inbox": 176, "comments": 4, "phones": 9, "conversion_rate": 5.0}, {"id": "tt_6950173559475438594", "name": "BS Hùng Dinh Dưỡng - NERCI", "platform": "tiktok", "new_customers": 43, "inbox": 27, "comments": 64, "phones": 5, "conversion_rate": 5.49}, {"id": "110050552088446", "name": "H&H Nutrition - Sản phẩm dinh dưỡng y học", "platform": "facebook", "new_customers": 33, "inbox": 109, "comments": 10, "phones": 4, "conversion_rate": 3.36}, {"id": "zl_3931932230824176234", "name": "H&H - Dinh dưỡng tối ưu", "platform": "zalo", "new_customers": 11, "inbox": 102, "comments": 0, "phones": 3, "conversion_rate": 2.94}, {"id": "1154098647775979", "name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng", "platform": "facebook", "new_customers": 2, "inbox": 17, "comments": 1, "phones": 2, "conversion_rate": 11.11}, {"id": "zl_1362372561524781376", "name": "Viện Nghiên cứu & Tư vấn dinh dưỡng", "platform": "zalo", "new_customers": 2, "inbox": 12, "comments": 0, "phones": 1, "conversion_rate": 8.33}, {"id": "115282578324521", "name": "Cộng đồng Bác sĩ Dinh Dưỡng Việt Nam", "platform": "facebook", "new_customers": 0, "inbox": 0, "comments": 0, "phones": 0, "conversion_rate": 0.0}, {"id": "web_hhtest", "name": "H&H", "platform": "pke_chat_plugin", "new_customers": 0, "inbox": 0, "comments": 0, "phones": 0, "conversion_rate": 0.0}, {"id": "web_Nerci", "name": "Nerci", "platform": "pke_chat_plugin", "new_customers": 0, "inbox": 0, "comments": 0, "phones": 0, "conversion_rate": 0.0}], "hourly": [{"hour": "00:00", "inbox": 2, "comment": 1, "new_cust": 1, "phones": 1}, {"hour": "01:00", "inbox": 4, "comment": 0, "new_cust": 1, "phones": 2}, {"hour": "02:00", "inbox": 2, "comment": 1, "new_cust": 2, "phones": 0}, {"hour": "04:00", "inbox": 5, "comment": 2, "new_cust": 4, "phones": 3}, {"hour": "05:00", "inbox": 9, "comment": 0, "new_cust": 3, "phones": 2}, {"hour": "06:00", "inbox": 7, "comment": 0, "new_cust": 5, "phones": 3}, {"hour": "07:00", "inbox": 8, "comment": 3, "new_cust": 4, "phones": 2}, {"hour": "08:00", "inbox": 44, "comment": 1, "new_cust": 5, "phones": 1}, {"hour": "09:00", "inbox": 62, "comment": 4, "new_cust": 9, "phones": 5}, {"hour": "10:00", "inbox": 64, "comment": 5, "new_cust": 10, "phones": 4}, {"hour": "11:00", "inbox": 32, "comment": 5, "new_cust": 7, "phones": 2}, {"hour": "12:00", "inbox": 22, "comment": 4, "new_cust": 8, "phones": 3}, {"hour": "13:00", "inbox": 29, "comment": 3, "new_cust": 7, "phones": 0}, {"hour": "14:00", "inbox": 35, "comment": 3, "new_cust": 8, "phones": 1}, {"hour": "15:00", "inbox": 31, "comment": 4, "new_cust": 9, "phones": 4}, {"hour": "16:00", "inbox": 32, "comment": 4, "new_cust": 7, "phones": 3}, {"hour": "17:00", "inbox": 21, "comment": 8, "new_cust": 10, "phones": 0}, {"hour": "18:00", "inbox": 21, "comment": 5, "new_cust": 10, "phones": 2}, {"hour": "19:00", "inbox": 28, "comment": 6, "new_cust": 16, "phones": 0}, {"hour": "20:00", "inbox": 28, "comment": 8, "new_cust": 14, "phones": 7}, {"hour": "21:00", "inbox": 5, "comment": 12, "new_cust": 10, "phones": 2}, {"hour": "22:00", "inbox": 3, "comment": 1, "new_cust": 2, "phones": 0}, {"hour": "23:00", "inbox": 2, "comment": 0, "new_cust": 1, "phones": 0}], "trend_7d": [{"date": "2026-09-11", "inbox": 460, "comments": 476, "touchpoints": 936, "new_customers": 344, "phones": 82, "conversion_rate": 8.76}, {"date": "2026-09-12", "inbox": 329, "comments": 54, "touchpoints": 383, "new_customers": 123, "phones": 69, "conversion_rate": 18.02}, {"date": "2026-09-13", "inbox": 182, "comments": 72, "touchpoints": 254, "new_customers": 104, "phones": 48, "conversion_rate": 18.9}, {"date": "2026-09-14", "inbox": 309, "comments": 48, "touchpoints": 357, "new_customers": 122, "phones": 98, "conversion_rate": 27.45}, {"date": "2026-09-15", "inbox": 254, "comments": 183, "touchpoints": 437, "new_customers": 184, "phones": 65, "conversion_rate": 14.87}, {"date": "2026-09-16", "inbox": 325, "comments": 55, "touchpoints": 380, "new_customers": 124, "phones": 66, "conversion_rate": 17.37}, {"date": "2026-09-17", "inbox": 496, "comments": 80, "touchpoints": 576, "new_customers": 153, "phones": 47, "conversion_rate": 8.16}], "dropoff_reasons": [{"tag": "tag_19", "label": "Chưa phản hồi (Ngưng chat)", "count": 68}, {"tag": "tag_24", "label": "F_Tham Khảo (Chưa có nhu cầu ngay)", "count": 16}, {"tag": "tag_69", "label": "F_Suy nghĩ thêm", "count": 9}, {"tag": "tag_18", "label": "Spam / Rác", "count": 6}, {"tag": "tag_26", "label": "F_Sắp xếp thời gian", "count": 5}, {"tag": "tag_63", "label": "Thuê bao", "count": 4}, {"tag": "tag_29", "label": "Trùng lặp", "count": 4}, {"tag": "tag_62", "label": "KBM (Không bắt máy)", "count": 4}, {"tag": "tag_27", "label": "F_Không tồn tại / Khóa máy", "count": 2}, {"tag": "tag_68", "label": "F_Vướng thanh toán", "count": 1}]};
+    let MASTER_DATA = null;
+    let trendChartInst = null;
+    let hourlyChartInst = null;
+    let channelChartInst = null;
+    let dropoffChartInst = null;
 
-      // Metadata
-      document.getElementById('targetDate').innerText = `Kỳ Báo Cáo: ${data.metadata.target_date}`;
-      document.getElementById('updatedAt').innerText = `Đồng bộ: ${data.metadata.updated_at}`;
+    function fmtTime(sec) {
+      if (!sec && sec !== 0) return '—';
+      if (sec < 60) return sec + 's';
+      let m = Math.floor(sec / 60);
+      let s = Math.round(sec % 60);
+      return m + 'p' + (s ? s + 's' : '');
+    }
+
+    async function init() {
+      try {
+        const res = await fetch('./dashboard_metrics.json');
+        if (!res.ok) throw new Error("Fetch failed");
+        MASTER_DATA = await res.json();
+      } catch (e) {
+        console.warn("Loading error:", e);
+        return;
+      }
+
+      // Populate Date Picker
+      const sel = document.getElementById('dateSelect');
+      const dates = MASTER_DATA.metadata.available_dates || Object.keys(MASTER_DATA.days);
+      dates.sort().reverse();
+
+      sel.innerHTML = dates.map(d => {
+        let p = d.split('-');
+        return `<option value="${d}">Ngày ${p[2]}/${p[1]}/${p[0]}</option>`;
+      }).join('');
+
+      // Set initial to latest date
+      const initialDate = MASTER_DATA.metadata.latest_date || dates[0];
+      sel.value = initialDate;
+
+      renderDashboard(initialDate);
+    }
+
+    function switchDate(selectedDate) {
+      renderDashboard(selectedDate);
+    }
+
+    function renderDashboard(dateKey) {
+      const dayData = MASTER_DATA.days[dateKey];
+      if (!dayData) return;
+
+      const kp = dayData.kpis;
 
       // KPIs
-      document.getElementById('kpiTouchpoints').innerText = data.kpis.total_touchpoints.toLocaleString();
-      document.getElementById('kpiTouchpointsSub').innerText = `${data.kpis.customer_inbox} inbox • ${data.kpis.customer_comments} comments`;
-      document.getElementById('kpiPhones').innerText = data.kpis.phones_captured;
-      document.getElementById('kpiCrSub').innerText = `Tỷ lệ chốt: ${data.kpis.phone_conversion_rate}%`;
-      document.getElementById('kpiClosedDeals').innerText = data.kpis.closed_deals;
-      document.getElementById('kpiSla').innerText = `${data.kpis.team_avg_sla_sec}s`;
-      document.getElementById('kpiMedianSla').innerText = `Trung vị: ${data.kpis.team_median_sla_sec}s`;
-      document.getElementById('kpiNewCust').innerText = data.kpis.new_customers;
+      document.getElementById('kpiTouch').innerText = kp.total_touchpoints.toLocaleString();
+      document.getElementById('kpiTouchSub').innerText = `${kp.customer_inbox} inbox • ${kp.customer_comments} comments`;
+      document.getElementById('kpiPhones').innerText = kp.phones_captured;
+      document.getElementById('kpiCrSub').innerText = `Tỷ lệ chốt: ${kp.phone_conversion_rate}%`;
+
+      document.getElementById('kpiFrt').innerText = fmtTime(kp.team_avg_frt_sec);
+      document.getElementById('kpiFrtMedian').innerText = `Trung vị: ${fmtTime(kp.team_median_frt_sec)}`;
+
+      // Calculate team ongoing delay & consult duration
+      let allOngoing = [];
+      let allConsult = [];
+      let allSql = [];
+      dayData.staff.forEach(s => {
+        if (s.avg_ongoing_turnaround_sec > 0) allOngoing.push(s.avg_ongoing_turnaround_sec);
+        if (s.avg_consultation_mins > 0) allConsult.push(s.avg_consultation_mins);
+        if (s.avg_lead_to_sql_mins > 0) allSql.push(s.avg_lead_to_sql_mins);
+      });
+
+      let teamOngoingSec = allOngoing.length ? Math.round(allOngoing.reduce((a,b)=>a+b,0)/allOngoing.length) : 0;
+      let teamConsultMin = allConsult.length ? (allConsult.reduce((a,b)=>a+b,0)/allConsult.length).toFixed(1) : 0;
+      let teamSqlMin = allSql.length ? (allSql.reduce((a,b)=>a+b,0)/allSql.length).toFixed(1) : 0;
+
+      document.getElementById('kpiOngoing').innerText = fmtTime(teamOngoingSec);
+      document.getElementById('kpiSqlTime').innerText = `${teamSqlMin}p`;
+      document.getElementById('kpiSqlCount').innerText = `${kp.closed_deals} đơn chốt thành công`;
+      document.getElementById('kpiDuration').innerText = `${teamConsultMin}p`;
 
       // Funnel
-      const f = data.funnel;
-      const funnelContainer = document.getElementById('funnelContainer');
-      funnelContainer.innerHTML = `
+      const fCont = document.getElementById('funnelContainer');
+      let crPhone = ((kp.phones_captured / Math.max(1, kp.total_touchpoints)) * 100).toFixed(1);
+      fCont.innerHTML = `
         <div class="funnel-step" style="border-left-color: #38bdf8;">
-          <span class="funnel-label">1. Tổng Chạm (Inboxes & Comments)</span>
-          <span class="funnel-val">${f.touchpoints.toLocaleString()}</span>
+          <span class="funnel-label">1. Tổng Điểm Chạm (Touchpoints)</span>
+          <span class="funnel-val">${kp.total_touchpoints.toLocaleString()}</span>
         </div>
         <div class="funnel-step" style="border-left-color: #818cf8;">
-          <span class="funnel-label">2. Khách Hàng Mới Tiếp Cận</span>
-          <span class="funnel-val">${f.new_inquiries.toLocaleString()}</span>
+          <span class="funnel-label">2. Khách Mới Tiếp Cận Lần Đầu</span>
+          <span class="funnel-val">${kp.new_customers.toLocaleString()}</span>
         </div>
         <div class="funnel-step" style="border-left-color: #4ade80;">
-          <span class="funnel-label">3. Số Điện Thoại Thu Thập Được</span>
-          <span class="funnel-val">${f.phones_captured} (${((f.phones_captured/max(1,f.touchpoints))*100).toFixed(1)}%)</span>
+          <span class="funnel-label">3. Số Điện Thoại Thu Thập (Lead)</span>
+          <span class="funnel-val">${kp.phones_captured} (${crPhone}%)</span>
         </div>
         <div class="funnel-step" style="border-left-color: #fbbf24;">
           <span class="funnel-label">4. Khách Tiềm Năng Chuyển Bác Sĩ (SQL)</span>
-          <span class="funnel-val">${f.sql_qualified}</span>
+          <span class="funnel-val">${kp.sql_leads}</span>
         </div>
         <div class="funnel-step" style="border-left-color: #c084fc;">
           <span class="funnel-label">5. Chốt Đơn / Khám Thành Công</span>
-          <span class="funnel-val">${f.closed_deals}</span>
+          <span class="funnel-val">${kp.closed_deals}</span>
         </div>
       `;
 
-      // Helper max
-      function max(a, b) { return a > b ? a : b; }
-
-      // Staff Leaderboard
-      const staffTbody = document.querySelector('#staffTable tbody');
-      staffTbody.innerHTML = '';
-      data.staff.forEach(s => {
-        let badgeClass = s.compliance_5m_pct >= 80 ? 'badge-success' : (s.compliance_5m_pct >= 60 ? 'badge-warning' : 'badge-danger');
-        let statusBadge = s.phones >= 5 ? '<span class="badge badge-success">⭐ Xuất Sắc</span>' : (s.phones >= 2 ? '<span class="badge badge-info">Đạt Chỉ Tiêu</span>' : '<span class="badge badge-warning">Cần Đẩy Mạnh</span>');
+      // Staff Table with Deep Breakdown
+      const tbody = document.querySelector('#staffTable tbody');
+      tbody.innerHTML = '';
+      dayData.staff.forEach(s => {
+        let complianceBadge = s.compliance_5m_pct >= 80 ? 'badge-success' : (s.compliance_5m_pct >= 60 ? 'badge-warning' : 'badge-danger');
         
+        let chChips = (s.channel_breakdown || []).map(ch => {
+          let chNameShort = ch.channel_name.length > 20 ? ch.channel_name.slice(0, 18) + '..' : ch.channel_name;
+          return `<span class="chip"><strong>${chNameShort}</strong>: ${ch.inbox} ib, <strong>${ch.phones} SĐT</strong> (${ch.cr}%)</span>`;
+        }).join('');
+
         let tr = document.createElement('tr');
         tr.innerHTML = `
           <td><strong>${s.name}</strong></td>
           <td>${s.touchpoints}</td>
           <td style="color: var(--accent-green); font-weight: 700;">${s.phones}</td>
           <td>${s.conversion_rate}%</td>
-          <td>${s.avg_sla_sec}s</td>
-          <td>${s.median_sla_sec}s</td>
-          <td><span class="badge ${badgeClass}">${s.compliance_5m_pct}%</span></td>
-          <td>${statusBadge}</td>
+          <td><strong>${fmtTime(s.avg_frt_sec)}</strong> <span style="color: var(--text-dim);">(${fmtTime(s.median_frt_sec)})</span></td>
+          <td style="color: var(--accent-teal); font-weight: 600;">${s.avg_ongoing_turnaround_sec ? fmtTime(s.avg_ongoing_turnaround_sec) : '—'}</td>
+          <td>${s.avg_lead_to_sql_mins ? s.avg_lead_to_sql_mins + 'p' : '—'} <span style="color: var(--text-dim);">(${s.median_lead_to_sql_mins ? s.median_lead_to_sql_mins + 'p' : '—'})</span></td>
+          <td>${s.avg_consultation_mins ? s.avg_consultation_mins + ' phút' : '—'}</td>
+          <td><span class="badge ${complianceBadge}">${s.compliance_5m_pct}%</span></td>
+          <td><div class="channel-chips">${chChips || '<span style="color: var(--text-dim);">—</span>'}</div></td>
         `;
-        staffTbody.appendChild(tr);
+        tbody.appendChild(tr);
       });
 
-      // Chart defaults
-      Chart.defaults.color = '#94a3b8';
-      Chart.defaults.borderColor = 'rgba(51, 65, 85, 0.4)';
-      Chart.defaults.font.family = "'Be Vietnam Pro', sans-serif";
+      // Render Charts
+      renderTrendChart();
+      renderChannelChart(dayData.channels);
+      renderHourlyChart(dayData.hourly);
+      renderDropoffChart(dayData.dropoff_reasons);
+    }
 
-      // 1. Trend 7d Chart
-      new Chart(document.getElementById('trendChart'), {
+    function renderTrendChart() {
+      const el = document.getElementById('trendChart');
+      if (trendChartInst) trendChartInst.destroy();
+
+      const tData = MASTER_DATA.trend_7d;
+      trendChartInst = new Chart(el, {
         type: 'line',
         data: {
-          labels: data.trend_7d.map(d => d.date.slice(5)),
+          labels: tData.map(d => d.date.slice(5)),
           datasets: [
             {
               label: 'Tổng Tương Tác',
-              data: data.trend_7d.map(d => d.touchpoints),
+              data: tData.map(d => d.touchpoints),
               borderColor: '#38bdf8',
               backgroundColor: 'rgba(56, 189, 248, 0.1)',
               tension: 0.3,
@@ -514,8 +648,8 @@
               yAxisID: 'y'
             },
             {
-              label: 'SĐT Thu Thập',
-              data: data.trend_7d.map(d => d.phones),
+              label: 'SĐT Lấy Được',
+              data: tData.map(d => d.phones),
               borderColor: '#4ade80',
               backgroundColor: '#4ade80',
               tension: 0.2,
@@ -526,28 +660,56 @@
         options: {
           responsive: true,
           maintainAspectRatio: false,
+          interaction: { mode: 'index', intersect: false },
           scales: {
-            y: { position: 'left', title: { display: true, text: 'Lượt tương tác' } },
-            y1: { position: 'right', grid: { drawOnChartArea: false }, title: { display: true, text: 'Số ĐT' } }
+            y: { position: 'left', title: { display: true, text: 'Tương tác' }, grid: { color: 'rgba(51, 65, 85, 0.3)' } },
+            y1: { position: 'right', grid: { drawOnChartArea: false }, title: { display: true, text: 'SĐT' } }
           }
         }
       });
+    }
 
-      // 2. Hourly Chart
-      new Chart(document.getElementById('hourlyChart'), {
+    function renderChannelChart(channels) {
+      const el = document.getElementById('channelChart');
+      if (channelChartInst) channelChartInst.destroy();
+
+      const activeChannels = channels.filter(c => (c.inbox + c.comments) > 0).slice(0, 6);
+      channelChartInst = new Chart(el, {
+        type: 'doughnut',
+        data: {
+          labels: activeChannels.map(c => c.name.length > 22 ? c.name.slice(0, 20) + '...' : c.name),
+          datasets: [{
+            data: activeChannels.map(c => c.inbox + c.comments),
+            backgroundColor: ['#38bdf8', '#818cf8', '#c084fc', '#f43f5e', '#fbbf24', '#2dd4bf'],
+            borderWidth: 0
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { position: 'bottom', labels: { boxWidth: 12, color: '#94a3b8' } } }
+        }
+      });
+    }
+
+    function renderHourlyChart(hourly) {
+      const el = document.getElementById('hourlyChart');
+      if (hourlyChartInst) hourlyChartInst.destroy();
+
+      hourlyChartInst = new Chart(el, {
         type: 'bar',
         data: {
-          labels: data.hourly.map(h => h.hour),
+          labels: hourly.map(h => h.hour),
           datasets: [
             {
-              label: 'Tương tác (Inbox)',
-              data: data.hourly.map(h => h.inbox),
+              label: 'Inbox / Chat',
+              data: hourly.map(h => h.inbox),
               backgroundColor: '#38bdf8',
               borderRadius: 4
             },
             {
-              label: 'SĐT Lấy Được',
-              data: data.hourly.map(h => h.phones),
+              label: 'SĐT Thu Thập',
+              data: hourly.map(h => h.phones),
               backgroundColor: '#4ade80',
               borderRadius: 4
             }
@@ -555,41 +717,26 @@
         },
         options: {
           responsive: true,
-          maintainAspectRatio: false
-        }
-      });
-
-      // 3. Channel Doughnut Chart
-      const topChannels = data.channels.filter(c => (c.inbox + c.comments) > 0).slice(0, 6);
-      new Chart(document.getElementById('channelChart'), {
-        type: 'doughnut',
-        data: {
-          labels: topChannels.map(c => c.name.length > 20 ? c.name.slice(0, 20) + '...' : c.name),
-          datasets: [{
-            data: topChannels.map(c => c.inbox + c.comments),
-            backgroundColor: [
-              '#38bdf8', '#818cf8', '#c084fc', '#f43f5e', '#fbbf24', '#2dd4bf'
-            ],
-            borderWidth: 0
-          }]
-        },
-        options: {
-          responsive: true,
           maintainAspectRatio: false,
-          plugins: {
-            legend: { position: 'bottom', labels: { boxWidth: 12 } }
+          scales: {
+            x: { grid: { display: false } },
+            y: { grid: { color: 'rgba(51, 65, 85, 0.3)' } }
           }
         }
       });
+    }
 
-      // 4. Dropoff Reasons Chart
-      new Chart(document.getElementById('dropoffChart'), {
+    function renderDropoffChart(dropoffs) {
+      const el = document.getElementById('dropoffChart');
+      if (dropoffChartInst) dropoffChartInst.destroy();
+
+      dropoffChartInst = new Chart(el, {
         type: 'bar',
         data: {
-          labels: data.dropoff_reasons.map(r => r.label),
+          labels: dropoffs.map(d => d.label),
           datasets: [{
-            label: 'Số lượng ca ngưng chat / từ chối',
-            data: data.dropoff_reasons.map(r => r.count),
+            label: 'Số ca ngưng tương tác',
+            data: dropoffs.map(d => d.count),
             backgroundColor: 'rgba(244, 63, 94, 0.75)',
             borderRadius: 4
           }]
@@ -598,14 +745,20 @@
           indexAxis: 'y',
           responsive: true,
           maintainAspectRatio: false,
-          plugins: {
-            legend: { display: false }
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { color: 'rgba(51, 65, 85, 0.3)' } },
+            y: { grid: { display: false } }
           }
         }
       });
     }
 
-    window.addEventListener('DOMContentLoaded', loadDashboard);
+    // Chart style overrides
+    Chart.defaults.color = '#94a3b8';
+    Chart.defaults.font.family = "'Be Vietnam Pro', sans-serif";
+
+    window.addEventListener('DOMContentLoaded', init);
   </script>
 </body>
 </html>
