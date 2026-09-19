@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "NERCI Sales & SLA Performance Advanced Intelligence",
-    "updated_at": "2026-09-19 10:03:07 (GMT+7)",
+    "title": "NERCI Sales & SLA Multi-Channel Intelligence System",
+    "updated_at": "2026-09-19 11:10:31 (GMT+7)",
     "latest_date": "2026-09-17",
     "available_dates": [
       "2026-09-08",
@@ -15,14 +15,223 @@
       "2026-09-16",
       "2026-09-17"
     ],
+    "overall": {
+      "total_records": 4720,
+      "total_phones": 614,
+      "sla_rate": 41.9,
+      "date_range": "2026-09-08 ➔ 2026-09-17"
+    },
     "sla_philosophy": {
-      "website_sla": "SLA Lead Form/Web: Tính từ khi khách gửi thông tin trên web đến khi tư vấn viên tiếp nhận, gọi điện hoặc chuyển trạng thái trên CRM (Mục tiêu: < 5-15 phút).",
-      "chat_sla_frt": "First Response Time (FRT): Thời gian tư vấn viên gửi tin nhắn đầu tiên khi khách mới nhắn tin qua Messenger / Zalo / TikTok (Mục tiêu: < 60-180 giây).",
+      "website_sla": "SLA Lead Form/Web: Tính từ khi khách gửi thông tin trên web đến khi tư vấn viên tiếp nhận, gọi điện hoặc chuyển trạng thái trên CRM (Mục tiêu: < 15 phút).",
+      "chat_sla_frt": "First Response Time (FRT): Thời gian tư vấn viên gửi tin nhắn đầu tiên khi khách mới nhắn tin qua Messenger / Zalo / TikTok (Mục tiêu: < 180 giây).",
       "chat_sla_ongoing": "Ongoing Reply Turnaround (MRT): Thời gian phản hồi trung bình cho TẤT CẢ các lượt chat tiếp nối trong suốt cuộc trò chuyện Messenger (không chỉ tin đầu, đo lường độ liền mạch và tránh ngâm khách).",
       "lead_to_sql_duration": "Lead to SQL Velocity: Thời gian trung vị/trung bình từ lúc bắt đầu chat đến khi gắn thẻ Chốt đơn / Khám thành công / SQL.",
       "consultation_duration": "Customer Care Duration: Thời gian tư vấn trung bình của 1 khách hàng (Từ tin đầu tiên đến tin kết thúc trong phiên tư vấn)."
     }
   },
+  "regression": {
+    "slope": -0.27,
+    "intercept": 12.0,
+    "r2": 0.015,
+    "pts": [
+      {
+        "x": 2,
+        "label": "09-08",
+        "y": 10.9,
+        "total": 402,
+        "sla_rate": 34.4
+      },
+      {
+        "x": 3,
+        "label": "09-09",
+        "y": 7.8,
+        "total": 473,
+        "sla_rate": 37.8
+      },
+      {
+        "x": 4,
+        "label": "09-10",
+        "y": 10.4,
+        "total": 549,
+        "sla_rate": 39.6
+      },
+      {
+        "x": 5,
+        "label": "09-11",
+        "y": 4.8,
+        "total": 926,
+        "sla_rate": 50.0
+      },
+      {
+        "x": 6,
+        "label": "09-12",
+        "y": 23.9,
+        "total": 381,
+        "sla_rate": 23.5
+      },
+      {
+        "x": 7,
+        "label": "09-13",
+        "y": 7.4,
+        "total": 247,
+        "sla_rate": 38.9
+      },
+      {
+        "x": 8,
+        "label": "09-14",
+        "y": 8.3,
+        "total": 356,
+        "sla_rate": 41.0
+      },
+      {
+        "x": 9,
+        "label": "09-15",
+        "y": 20.0,
+        "total": 430,
+        "sla_rate": 28.6
+      },
+      {
+        "x": 10,
+        "label": "09-16",
+        "y": 6.4,
+        "total": 380,
+        "sla_rate": 43.3
+      },
+      {
+        "x": 11,
+        "label": "09-17",
+        "y": 2.4,
+        "total": 576,
+        "sla_rate": 62.8
+      }
+    ],
+    "future": [
+      {
+        "x": 12,
+        "y": 8.8
+      },
+      {
+        "x": 13,
+        "y": 8.5
+      },
+      {
+        "x": 14,
+        "y": 8.2
+      }
+    ]
+  },
+  "history": [
+    {
+      "date": "2026-09-17",
+      "touchpoints": 576,
+      "max_frt_sec": 6261,
+      "avg_frt_sec": 997.1,
+      "median_frt_sec": 142,
+      "fail": 16,
+      "sla_rate": 62.8,
+      "phones": 47,
+      "cr": 8.16
+    },
+    {
+      "date": "2026-09-16",
+      "touchpoints": 380,
+      "max_frt_sec": 6642,
+      "avg_frt_sec": 1308.5,
+      "median_frt_sec": 386.5,
+      "fail": 17,
+      "sla_rate": 43.3,
+      "phones": 66,
+      "cr": 17.37
+    },
+    {
+      "date": "2026-09-15",
+      "touchpoints": 430,
+      "max_frt_sec": 6953,
+      "avg_frt_sec": 2453.1,
+      "median_frt_sec": 1202,
+      "fail": 15,
+      "sla_rate": 28.6,
+      "phones": 65,
+      "cr": 15.12
+    },
+    {
+      "date": "2026-09-14",
+      "touchpoints": 356,
+      "max_frt_sec": 5370,
+      "avg_frt_sec": 1080.0,
+      "median_frt_sec": 496,
+      "fail": 23,
+      "sla_rate": 41.0,
+      "phones": 98,
+      "cr": 27.53
+    },
+    {
+      "date": "2026-09-13",
+      "touchpoints": 247,
+      "max_frt_sec": 6251,
+      "avg_frt_sec": 1613.4,
+      "median_frt_sec": 442.0,
+      "fail": 11,
+      "sla_rate": 38.9,
+      "phones": 48,
+      "cr": 19.43
+    },
+    {
+      "date": "2026-09-12",
+      "touchpoints": 381,
+      "max_frt_sec": 7024,
+      "avg_frt_sec": 1860.4,
+      "median_frt_sec": 1434.5,
+      "fail": 26,
+      "sla_rate": 23.5,
+      "phones": 69,
+      "cr": 18.11
+    },
+    {
+      "date": "2026-09-11",
+      "touchpoints": 926,
+      "max_frt_sec": 6872,
+      "avg_frt_sec": 992.8,
+      "median_frt_sec": 285.0,
+      "fail": 23,
+      "sla_rate": 50.0,
+      "phones": 82,
+      "cr": 8.86
+    },
+    {
+      "date": "2026-09-10",
+      "touchpoints": 549,
+      "max_frt_sec": 6539,
+      "avg_frt_sec": 1260.2,
+      "median_frt_sec": 626.5,
+      "fail": 29,
+      "sla_rate": 39.6,
+      "phones": 60,
+      "cr": 10.93
+    },
+    {
+      "date": "2026-09-09",
+      "touchpoints": 473,
+      "max_frt_sec": 4570,
+      "avg_frt_sec": 955.2,
+      "median_frt_sec": 466,
+      "fail": 28,
+      "sla_rate": 37.8,
+      "phones": 43,
+      "cr": 9.09
+    },
+    {
+      "date": "2026-09-08",
+      "touchpoints": 402,
+      "max_frt_sec": 7191,
+      "avg_frt_sec": 1322.6,
+      "median_frt_sec": 653,
+      "fail": 401,
+      "sla_rate": 34.4,
+      "phones": 36,
+      "cr": 8.96
+    }
+  ],
   "days": {
     "2026-09-08": {
       "date": "2026-09-08",
@@ -35,6 +244,10 @@
         "phone_conversion_rate": 8.96,
         "team_avg_frt_sec": 1322.6,
         "team_median_frt_sec": 653,
+        "max_frt_sec": 7191,
+        "sla_pass": 210,
+        "sla_fail": 401,
+        "sla_rate": 34.4,
         "closed_deals": 3,
         "sql_leads": 25,
         "spam_blocked": 3,
@@ -42,17 +255,13 @@
         "web_touchpoints": 0,
         "web_phones": 0,
         "web_cr": 0.0,
-        "web_avg_lead_to_status_mins": 0,
         "chat_touchpoints": 402,
         "chat_phones": 36,
-        "chat_cr": 8.96,
-        "chat_avg_lead_to_status_mins": 0
+        "chat_cr": 8.96
       },
       "staff": [
         {
           "name": "Nguyễn Phương Uyên",
-          "inbox": 1306,
-          "comments": 3,
           "touchpoints": 1309,
           "phones": 51,
           "conversion_rate": 3.9,
@@ -60,20 +269,13 @@
           "median_frt_sec": 478,
           "compliance_5m_pct": 38.5,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Nguyễn Thiện Nhân",
-          "inbox": 3094,
-          "comments": 0,
           "touchpoints": 3094,
           "phones": 33,
           "conversion_rate": 1.07,
@@ -81,20 +283,13 @@
           "median_frt_sec": 1380.5,
           "compliance_5m_pct": 14.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
-          "inbox": 2153,
-          "comments": 0,
           "touchpoints": 2153,
           "phones": 22,
           "conversion_rate": 1.02,
@@ -102,20 +297,13 @@
           "median_frt_sec": 455.5,
           "compliance_5m_pct": 33.6,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Hồ Dương Xuân  Diệu",
-          "inbox": 1865,
-          "comments": 0,
           "touchpoints": 1865,
           "phones": 18,
           "conversion_rate": 0.97,
@@ -123,20 +311,13 @@
           "median_frt_sec": 290,
           "compliance_5m_pct": 51.5,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Nguyễn Châu Hồng Thủy",
-          "inbox": 1086,
-          "comments": 3,
           "touchpoints": 1089,
           "phones": 7,
           "conversion_rate": 0.64,
@@ -144,20 +325,13 @@
           "median_frt_sec": 223.0,
           "compliance_5m_pct": 57.1,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Đặng Hoàng Anh Thư",
-          "inbox": 137,
-          "comments": 0,
           "touchpoints": 137,
           "phones": 3,
           "conversion_rate": 2.19,
@@ -165,20 +339,13 @@
           "median_frt_sec": 2035,
           "compliance_5m_pct": 28.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Anna Đậu",
-          "inbox": 365,
-          "comments": 0,
           "touchpoints": 365,
           "phones": 1,
           "conversion_rate": 0.27,
@@ -186,14 +353,9 @@
           "median_frt_sec": 269.5,
           "compliance_5m_pct": 55.6,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         }
       ],
@@ -494,7 +656,8 @@
           "label": "F_Chọn đối thủ",
           "count": 2
         }
-      ]
+      ],
+      "top_slowest": []
     },
     "2026-09-09": {
       "date": "2026-09-09",
@@ -507,6 +670,10 @@
         "phone_conversion_rate": 9.09,
         "team_avg_frt_sec": 955.2,
         "team_median_frt_sec": 466,
+        "max_frt_sec": 4570,
+        "sla_pass": 17,
+        "sla_fail": 28,
+        "sla_rate": 37.8,
         "closed_deals": 4,
         "sql_leads": 30,
         "spam_blocked": 13,
@@ -514,17 +681,13 @@
         "web_touchpoints": 7,
         "web_phones": 1,
         "web_cr": 14.29,
-        "web_avg_lead_to_status_mins": 0,
         "chat_touchpoints": 466,
         "chat_phones": 42,
-        "chat_cr": 9.01,
-        "chat_avg_lead_to_status_mins": 0
+        "chat_cr": 9.01
       },
       "staff": [
         {
           "name": "Nguyễn Châu Hồng Thủy",
-          "inbox": 331,
-          "comments": 4,
           "touchpoints": 335,
           "phones": 4,
           "conversion_rate": 1.19,
@@ -532,20 +695,13 @@
           "median_frt_sec": 285.0,
           "compliance_5m_pct": 50.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
-          "inbox": 177,
-          "comments": 0,
           "touchpoints": 177,
           "phones": 4,
           "conversion_rate": 2.26,
@@ -553,20 +709,13 @@
           "median_frt_sec": 453.0,
           "compliance_5m_pct": 33.3,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Nguyễn Thiện Nhân",
-          "inbox": 485,
-          "comments": 0,
           "touchpoints": 485,
           "phones": 3,
           "conversion_rate": 0.62,
@@ -574,20 +723,13 @@
           "median_frt_sec": 540.0,
           "compliance_5m_pct": 27.8,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Nguyễn Phương Uyên",
-          "inbox": 2,
-          "comments": 0,
           "touchpoints": 2,
           "phones": 1,
           "conversion_rate": 50.0,
@@ -595,20 +737,13 @@
           "median_frt_sec": 677,
           "compliance_5m_pct": 0.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Anna Đậu",
-          "inbox": 0,
-          "comments": 0,
           "touchpoints": 0,
           "phones": 1,
           "conversion_rate": 0.0,
@@ -616,20 +751,13 @@
           "median_frt_sec": 0,
           "compliance_5m_pct": 100.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Hồ Dương Xuân  Diệu",
-          "inbox": 20,
-          "comments": 0,
           "touchpoints": 20,
           "phones": 0,
           "conversion_rate": 0.0,
@@ -637,20 +765,13 @@
           "median_frt_sec": 24,
           "compliance_5m_pct": 80.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Đặng Hoàng Anh Thư",
-          "inbox": 15,
-          "comments": 0,
           "touchpoints": 15,
           "phones": 0,
           "conversion_rate": 0.0,
@@ -658,14 +779,9 @@
           "median_frt_sec": 2626,
           "compliance_5m_pct": 0.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         }
       ],
@@ -966,7 +1082,8 @@
           "label": "F_Chưa có quyết định",
           "count": 1
         }
-      ]
+      ],
+      "top_slowest": []
     },
     "2026-09-10": {
       "date": "2026-09-10",
@@ -979,6 +1096,10 @@
         "phone_conversion_rate": 10.93,
         "team_avg_frt_sec": 1260.2,
         "team_median_frt_sec": 626.5,
+        "max_frt_sec": 6539,
+        "sla_pass": 19,
+        "sla_fail": 29,
+        "sla_rate": 39.6,
         "closed_deals": 3,
         "sql_leads": 42,
         "spam_blocked": 2,
@@ -986,17 +1107,13 @@
         "web_touchpoints": 0,
         "web_phones": 0,
         "web_cr": 0.0,
-        "web_avg_lead_to_status_mins": 0,
         "chat_touchpoints": 549,
         "chat_phones": 60,
-        "chat_cr": 10.93,
-        "chat_avg_lead_to_status_mins": 0
+        "chat_cr": 10.93
       },
       "staff": [
         {
           "name": "Nguyễn Phương Uyên",
-          "inbox": 152,
-          "comments": 0,
           "touchpoints": 152,
           "phones": 12,
           "conversion_rate": 7.89,
@@ -1004,20 +1121,13 @@
           "median_frt_sec": 731.5,
           "compliance_5m_pct": 10.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Nguyễn Thiện Nhân",
-          "inbox": 334,
-          "comments": 2,
           "touchpoints": 336,
           "phones": 3,
           "conversion_rate": 0.89,
@@ -1025,20 +1135,13 @@
           "median_frt_sec": 660.5,
           "compliance_5m_pct": 37.5,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
-          "inbox": 211,
-          "comments": 0,
           "touchpoints": 211,
           "phones": 2,
           "conversion_rate": 0.95,
@@ -1046,20 +1149,13 @@
           "median_frt_sec": 689,
           "compliance_5m_pct": 46.2,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Nguyễn Châu Hồng Thủy",
-          "inbox": 153,
-          "comments": 0,
           "touchpoints": 153,
           "phones": 1,
           "conversion_rate": 0.65,
@@ -1067,20 +1163,13 @@
           "median_frt_sec": 83.0,
           "compliance_5m_pct": 75.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Anna Đậu",
-          "inbox": 0,
-          "comments": 0,
           "touchpoints": 0,
           "phones": 1,
           "conversion_rate": 0.0,
@@ -1088,20 +1177,13 @@
           "median_frt_sec": 0,
           "compliance_5m_pct": 100.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Đặng Hoàng Anh Thư",
-          "inbox": 33,
-          "comments": 0,
           "touchpoints": 33,
           "phones": 0,
           "conversion_rate": 0.0,
@@ -1109,20 +1191,13 @@
           "median_frt_sec": 3498,
           "compliance_5m_pct": 0.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Hồ Dương Xuân  Diệu",
-          "inbox": 25,
-          "comments": 0,
           "touchpoints": 25,
           "phones": 0,
           "conversion_rate": 0.0,
@@ -1130,14 +1205,9 @@
           "median_frt_sec": 136.0,
           "compliance_5m_pct": 75.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         }
       ],
@@ -1450,7 +1520,8 @@
           "label": "F_Ở Xa (Địa lý)",
           "count": 2
         }
-      ]
+      ],
+      "top_slowest": []
     },
     "2026-09-11": {
       "date": "2026-09-11",
@@ -1463,6 +1534,10 @@
         "phone_conversion_rate": 8.86,
         "team_avg_frt_sec": 992.8,
         "team_median_frt_sec": 285.0,
+        "max_frt_sec": 6872,
+        "sla_pass": 23,
+        "sla_fail": 23,
+        "sla_rate": 50.0,
         "closed_deals": 7,
         "sql_leads": 57,
         "spam_blocked": 11,
@@ -1470,17 +1545,13 @@
         "web_touchpoints": 2,
         "web_phones": 1,
         "web_cr": 50.0,
-        "web_avg_lead_to_status_mins": 0,
         "chat_touchpoints": 924,
         "chat_phones": 81,
-        "chat_cr": 8.77,
-        "chat_avg_lead_to_status_mins": 0
+        "chat_cr": 8.77
       },
       "staff": [
         {
           "name": "Nguyễn Thị Hồng Yến",
-          "inbox": 168,
-          "comments": 0,
           "touchpoints": 168,
           "phones": 4,
           "conversion_rate": 2.38,
@@ -1488,20 +1559,13 @@
           "median_frt_sec": 145,
           "compliance_5m_pct": 72.7,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Nguyễn Thiện Nhân",
-          "inbox": 352,
-          "comments": 0,
           "touchpoints": 352,
           "phones": 3,
           "conversion_rate": 0.85,
@@ -1509,20 +1573,13 @@
           "median_frt_sec": 419,
           "compliance_5m_pct": 36.4,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Nguyễn Phương Uyên",
-          "inbox": 217,
-          "comments": 0,
           "touchpoints": 217,
           "phones": 3,
           "conversion_rate": 1.38,
@@ -1530,20 +1587,13 @@
           "median_frt_sec": 514,
           "compliance_5m_pct": 40.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Đặng Hoàng Anh Thư",
-          "inbox": 287,
-          "comments": 0,
           "touchpoints": 287,
           "phones": 1,
           "conversion_rate": 0.35,
@@ -1551,20 +1601,13 @@
           "median_frt_sec": 285.0,
           "compliance_5m_pct": 50.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Hồ Dương Xuân  Diệu",
-          "inbox": 1,
-          "comments": 0,
           "touchpoints": 1,
           "phones": 0,
           "conversion_rate": 0.0,
@@ -1572,20 +1615,13 @@
           "median_frt_sec": 262,
           "compliance_5m_pct": 100.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Anh Thu",
-          "inbox": 1,
-          "comments": 0,
           "touchpoints": 1,
           "phones": 0,
           "conversion_rate": 0.0,
@@ -1593,14 +1629,9 @@
           "median_frt_sec": 0,
           "compliance_5m_pct": 100.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         }
       ],
@@ -1907,7 +1938,8 @@
           "label": "F_Chưa có quyết định",
           "count": 2
         }
-      ]
+      ],
+      "top_slowest": []
     },
     "2026-09-12": {
       "date": "2026-09-12",
@@ -1920,6 +1952,10 @@
         "phone_conversion_rate": 18.11,
         "team_avg_frt_sec": 1860.4,
         "team_median_frt_sec": 1434.5,
+        "max_frt_sec": 7024,
+        "sla_pass": 8,
+        "sla_fail": 26,
+        "sla_rate": 23.5,
         "closed_deals": 3,
         "sql_leads": 48,
         "spam_blocked": 2,
@@ -1927,17 +1963,13 @@
         "web_touchpoints": 4,
         "web_phones": 1,
         "web_cr": 25.0,
-        "web_avg_lead_to_status_mins": 0,
         "chat_touchpoints": 377,
         "chat_phones": 68,
-        "chat_cr": 18.04,
-        "chat_avg_lead_to_status_mins": 1039.2
+        "chat_cr": 18.04
       },
       "staff": [
         {
           "name": "Nguyễn Thiện Nhân",
-          "inbox": 390,
-          "comments": 0,
           "touchpoints": 390,
           "phones": 7,
           "conversion_rate": 1.79,
@@ -1945,14 +1977,9 @@
           "median_frt_sec": 1653.0,
           "compliance_5m_pct": 0.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 33.4,
-          "median_consultation_mins": 18.5,
-          "consultation_sessions": 18,
           "channel_breakdown": [
             {
               "channel_name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
@@ -1986,8 +2013,6 @@
         },
         {
           "name": "Nguyễn Châu Hồng Thủy",
-          "inbox": 134,
-          "comments": 0,
           "touchpoints": 134,
           "phones": 4,
           "conversion_rate": 2.99,
@@ -1995,14 +2020,9 @@
           "median_frt_sec": 212,
           "compliance_5m_pct": 66.7,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 13.6,
-          "median_consultation_mins": 6.6,
-          "consultation_sessions": 5,
           "channel_breakdown": [
             {
               "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
@@ -2015,8 +2035,6 @@
         },
         {
           "name": "Nguyễn Phương Uyên",
-          "inbox": 0,
-          "comments": 0,
           "touchpoints": 0,
           "phones": 2,
           "conversion_rate": 0.0,
@@ -2024,14 +2042,9 @@
           "median_frt_sec": 0,
           "compliance_5m_pct": 100.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 52.6,
-          "median_consultation_mins": 52.6,
-          "consultation_sessions": 1,
           "channel_breakdown": [
             {
               "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
@@ -2044,8 +2057,6 @@
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
-          "inbox": 124,
-          "comments": 0,
           "touchpoints": 124,
           "phones": 1,
           "conversion_rate": 0.81,
@@ -2053,14 +2064,9 @@
           "median_frt_sec": 570.5,
           "compliance_5m_pct": 35.7,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 1039.2,
           "median_lead_to_sql_mins": 1039.2,
-          "sql_sample_count": 1,
           "avg_consultation_mins": 58.9,
-          "median_consultation_mins": 30.0,
-          "consultation_sessions": 7,
           "channel_breakdown": [
             {
               "channel_name": "H&H - Dinh dưỡng tối ưu",
@@ -2087,8 +2093,6 @@
         },
         {
           "name": "Hồ Dương Xuân  Diệu",
-          "inbox": 14,
-          "comments": 0,
           "touchpoints": 14,
           "phones": 1,
           "conversion_rate": 7.14,
@@ -2096,14 +2100,9 @@
           "median_frt_sec": 986.5,
           "compliance_5m_pct": 0.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 59.1,
-          "median_consultation_mins": 59.1,
-          "consultation_sessions": 1,
           "channel_breakdown": [
             {
               "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
@@ -2123,8 +2122,6 @@
         },
         {
           "name": "Nguyễn Vũ Bảo Như",
-          "inbox": 0,
-          "comments": 0,
           "touchpoints": 0,
           "phones": 1,
           "conversion_rate": 0.0,
@@ -2132,20 +2129,13 @@
           "median_frt_sec": 0,
           "compliance_5m_pct": 100.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Đặng Hoàng Anh Thư",
-          "inbox": 27,
-          "comments": 0,
           "touchpoints": 27,
           "phones": 0,
           "conversion_rate": 0.0,
@@ -2153,14 +2143,9 @@
           "median_frt_sec": 4288,
           "compliance_5m_pct": 20.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": [
             {
               "channel_name": "H&H",
@@ -2481,6 +2466,43 @@
           "label": "F_Chưa có quyết định",
           "count": 2
         }
+      ],
+      "top_slowest": [
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 174491,
+          "hour": "08:20",
+          "status": "Spam"
+        },
+        {
+          "page": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4149,
+          "hour": "06:39",
+          "status": "F_Tham Khảo"
+        },
+        {
+          "page": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 1326,
+          "hour": "13:44",
+          "status": "Chưa phản hồi"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 1245,
+          "hour": "01:11",
+          "status": "F_Ko tồn/Khóa"
+        },
+        {
+          "page": "H&H - Dinh dưỡng tối ưu",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 758,
+          "hour": "02:26",
+          "status": "Chốt đơn/ chốt "
+        }
       ]
     },
     "2026-09-13": {
@@ -2494,6 +2516,10 @@
         "phone_conversion_rate": 19.43,
         "team_avg_frt_sec": 1613.4,
         "team_median_frt_sec": 442.0,
+        "max_frt_sec": 6251,
+        "sla_pass": 7,
+        "sla_fail": 11,
+        "sla_rate": 38.9,
         "closed_deals": 2,
         "sql_leads": 33,
         "spam_blocked": 3,
@@ -2501,17 +2527,13 @@
         "web_touchpoints": 2,
         "web_phones": 0,
         "web_cr": 0.0,
-        "web_avg_lead_to_status_mins": 0,
         "chat_touchpoints": 245,
         "chat_phones": 48,
-        "chat_cr": 19.59,
-        "chat_avg_lead_to_status_mins": 974.5
+        "chat_cr": 19.59
       },
       "staff": [
         {
           "name": "Nguyễn Thiện Nhân",
-          "inbox": 213,
-          "comments": 0,
           "touchpoints": 213,
           "phones": 3,
           "conversion_rate": 1.41,
@@ -2519,14 +2541,9 @@
           "median_frt_sec": 2059,
           "compliance_5m_pct": 27.3,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
-          "avg_lead_to_sql_mins": 974.5,
-          "median_lead_to_sql_mins": 974.5,
-          "sql_sample_count": 1,
+          "avg_lead_to_sql_mins": 517.9,
+          "median_lead_to_sql_mins": 517.9,
           "avg_consultation_mins": 44.0,
-          "median_consultation_mins": 19.5,
-          "consultation_sessions": 22,
           "channel_breakdown": [
             {
               "channel_name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
@@ -2560,8 +2577,6 @@
         },
         {
           "name": "Nguyễn Phương Uyên",
-          "inbox": 111,
-          "comments": 0,
           "touchpoints": 111,
           "phones": 2,
           "conversion_rate": 1.8,
@@ -2569,14 +2584,9 @@
           "median_frt_sec": 204,
           "compliance_5m_pct": 57.1,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 44.6,
-          "median_consultation_mins": 22.8,
-          "consultation_sessions": 13,
           "channel_breakdown": [
             {
               "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
@@ -2603,8 +2613,6 @@
         },
         {
           "name": "Nguyễn Vũ Bảo Như",
-          "inbox": 0,
-          "comments": 0,
           "touchpoints": 0,
           "phones": 1,
           "conversion_rate": 0.0,
@@ -2612,20 +2620,13 @@
           "median_frt_sec": 0,
           "compliance_5m_pct": 100.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Đặng Hoàng Anh Thư",
-          "inbox": 0,
-          "comments": 0,
           "touchpoints": 0,
           "phones": 1,
           "conversion_rate": 0.0,
@@ -2633,20 +2634,13 @@
           "median_frt_sec": 0,
           "compliance_5m_pct": 100.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Nguyễn Châu Hồng Thủy",
-          "inbox": 0,
-          "comments": 0,
           "touchpoints": 0,
           "phones": 1,
           "conversion_rate": 0.0,
@@ -2654,14 +2648,9 @@
           "median_frt_sec": 0,
           "compliance_5m_pct": 100.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": [
             {
               "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
@@ -2681,8 +2670,6 @@
         },
         {
           "name": "Hồ Dương Xuân  Diệu",
-          "inbox": 1,
-          "comments": 0,
           "touchpoints": 1,
           "phones": 0,
           "conversion_rate": 0.0,
@@ -2690,14 +2677,9 @@
           "median_frt_sec": 0,
           "compliance_5m_pct": 100.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": [
             {
               "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
@@ -2996,6 +2978,43 @@
           "label": "Hẹn gọi lại / Theo dõi thêm",
           "count": 1
         }
+      ],
+      "top_slowest": [
+        {
+          "page": "BS Hùng Dinh Dưỡng - NERCI",
+          "staff": "Chưa gán",
+          "frt_sec": 45321900,
+          "hour": "13:32",
+          "status": "Đang tư vấn"
+        },
+        {
+          "page": "BS Hùng Dinh Dưỡng - NERCI",
+          "staff": "Chưa gán",
+          "frt_sec": 385956,
+          "hour": "03:42",
+          "status": "Đang tư vấn"
+        },
+        {
+          "page": "BS Hùng Dinh Dưỡng - NERCI",
+          "staff": "Chưa gán",
+          "frt_sec": 166377,
+          "hour": "13:07",
+          "status": "Đang tư vấn"
+        },
+        {
+          "page": "BS Hùng Dinh Dưỡng - NERCI",
+          "staff": "Chưa gán",
+          "frt_sec": 134760,
+          "hour": "02:24",
+          "status": "Đang tư vấn"
+        },
+        {
+          "page": "BS Hùng Dinh Dưỡng - NERCI",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 84246,
+          "hour": "03:55",
+          "status": "Chưa phản hồi"
+        }
       ]
     },
     "2026-09-14": {
@@ -3009,6 +3028,10 @@
         "phone_conversion_rate": 27.53,
         "team_avg_frt_sec": 1080.0,
         "team_median_frt_sec": 496,
+        "max_frt_sec": 5370,
+        "sla_pass": 16,
+        "sla_fail": 23,
+        "sla_rate": 41.0,
         "closed_deals": 4,
         "sql_leads": 68,
         "spam_blocked": 12,
@@ -3016,17 +3039,13 @@
         "web_touchpoints": 1,
         "web_phones": 0,
         "web_cr": 0.0,
-        "web_avg_lead_to_status_mins": 0,
         "chat_touchpoints": 355,
         "chat_phones": 98,
-        "chat_cr": 27.61,
-        "chat_avg_lead_to_status_mins": 2847.9
+        "chat_cr": 27.61
       },
       "staff": [
         {
           "name": "Nguyễn Thiện Nhân",
-          "inbox": 249,
-          "comments": 0,
           "touchpoints": 249,
           "phones": 2,
           "conversion_rate": 0.8,
@@ -3034,14 +3053,9 @@
           "median_frt_sec": 563.5,
           "compliance_5m_pct": 21.4,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 68.2,
-          "median_consultation_mins": 53.5,
-          "consultation_sessions": 22,
           "channel_breakdown": [
             {
               "channel_name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
@@ -3075,8 +3089,6 @@
         },
         {
           "name": "Nguyễn Phương Uyên",
-          "inbox": 147,
-          "comments": 0,
           "touchpoints": 147,
           "phones": 2,
           "conversion_rate": 1.36,
@@ -3084,14 +3096,9 @@
           "median_frt_sec": 264.0,
           "compliance_5m_pct": 58.3,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 34.8,
-          "median_consultation_mins": 23.5,
-          "consultation_sessions": 24,
           "channel_breakdown": [
             {
               "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
@@ -3118,8 +3125,6 @@
         },
         {
           "name": "Đặng Hoàng Anh Thư",
-          "inbox": 16,
-          "comments": 0,
           "touchpoints": 16,
           "phones": 1,
           "conversion_rate": 6.25,
@@ -3127,14 +3132,9 @@
           "median_frt_sec": 1950,
           "compliance_5m_pct": 0.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": [
             {
               "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
@@ -3147,8 +3147,6 @@
         },
         {
           "name": "Nguyễn Vũ Bảo Như",
-          "inbox": 170,
-          "comments": 0,
           "touchpoints": 170,
           "phones": 0,
           "conversion_rate": 0.0,
@@ -3156,14 +3154,9 @@
           "median_frt_sec": 512,
           "compliance_5m_pct": 40.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 81.5,
-          "median_consultation_mins": 105.1,
-          "consultation_sessions": 4,
           "channel_breakdown": [
             {
               "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
@@ -3183,8 +3176,6 @@
         },
         {
           "name": "Hồ Dương Xuân  Diệu",
-          "inbox": 38,
-          "comments": 0,
           "touchpoints": 38,
           "phones": 0,
           "conversion_rate": 0.0,
@@ -3192,14 +3183,9 @@
           "median_frt_sec": 317.5,
           "compliance_5m_pct": 50.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": [
             {
               "channel_name": "H&H - Dinh dưỡng tối ưu",
@@ -3226,8 +3212,6 @@
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
-          "inbox": 21,
-          "comments": 0,
           "touchpoints": 21,
           "phones": 0,
           "conversion_rate": 0.0,
@@ -3235,14 +3219,9 @@
           "median_frt_sec": 189,
           "compliance_5m_pct": 66.7,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 2847.9,
           "median_lead_to_sql_mins": 2847.9,
-          "sql_sample_count": 1,
           "avg_consultation_mins": 59.0,
-          "median_consultation_mins": 59.0,
-          "consultation_sessions": 2,
           "channel_breakdown": [
             {
               "channel_name": "H&H - Dinh dưỡng tối ưu",
@@ -3564,6 +3543,43 @@
           "label": "Bận gọi lại sau",
           "count": 2
         }
+      ],
+      "top_slowest": [
+        {
+          "page": "BS Hùng Dinh Dưỡng - NERCI",
+          "staff": "Chưa gán",
+          "frt_sec": 108514831,
+          "hour": "04:50",
+          "status": "Đang tư vấn"
+        },
+        {
+          "page": "H&H - Dinh dưỡng tối ưu",
+          "staff": "Hồ Dương Xuân  Diệu",
+          "frt_sec": 1188118,
+          "hour": "08:11",
+          "status": "F_Ko tồn/Khóa"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 1018967,
+          "hour": "20:10",
+          "status": "F_Sắp Xếp TG"
+        },
+        {
+          "page": "BS Hùng Dinh Dưỡng - NERCI",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 178332,
+          "hour": "07:13",
+          "status": "Chưa phản hồi"
+        },
+        {
+          "page": "BS Hùng Dinh Dưỡng - NERCI",
+          "staff": "Chưa gán",
+          "frt_sec": 166377,
+          "hour": "13:07",
+          "status": "Đang tư vấn"
+        }
       ]
     },
     "2026-09-15": {
@@ -3577,6 +3593,10 @@
         "phone_conversion_rate": 15.12,
         "team_avg_frt_sec": 2453.1,
         "team_median_frt_sec": 1202,
+        "max_frt_sec": 6953,
+        "sla_pass": 6,
+        "sla_fail": 15,
+        "sla_rate": 28.6,
         "closed_deals": 4,
         "sql_leads": 45,
         "spam_blocked": 10,
@@ -3584,17 +3604,13 @@
         "web_touchpoints": 1,
         "web_phones": 0,
         "web_cr": 0.0,
-        "web_avg_lead_to_status_mins": 0,
         "chat_touchpoints": 429,
         "chat_phones": 65,
-        "chat_cr": 15.15,
-        "chat_avg_lead_to_status_mins": 0
+        "chat_cr": 15.15
       },
       "staff": [
         {
           "name": "Nguyễn Vũ Bảo Như",
-          "inbox": 57,
-          "comments": 0,
           "touchpoints": 57,
           "phones": 4,
           "conversion_rate": 7.02,
@@ -3602,20 +3618,13 @@
           "median_frt_sec": 1457,
           "compliance_5m_pct": 33.3,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Nguyễn Phương Uyên",
-          "inbox": 113,
-          "comments": 0,
           "touchpoints": 113,
           "phones": 3,
           "conversion_rate": 2.65,
@@ -3623,20 +3632,13 @@
           "median_frt_sec": 1202,
           "compliance_5m_pct": 20.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Nguyễn Thiện Nhân",
-          "inbox": 194,
-          "comments": 0,
           "touchpoints": 194,
           "phones": 1,
           "conversion_rate": 0.52,
@@ -3644,20 +3646,13 @@
           "median_frt_sec": 5536.0,
           "compliance_5m_pct": 0.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
-          "inbox": 34,
-          "comments": 0,
           "touchpoints": 34,
           "phones": 1,
           "conversion_rate": 2.94,
@@ -3665,20 +3660,13 @@
           "median_frt_sec": 5743,
           "compliance_5m_pct": 33.3,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Hồ Dương Xuân  Diệu",
-          "inbox": 28,
-          "comments": 0,
           "touchpoints": 28,
           "phones": 0,
           "conversion_rate": 0.0,
@@ -3686,14 +3674,9 @@
           "median_frt_sec": 393.5,
           "compliance_5m_pct": 50.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         }
       ],
@@ -4000,7 +3983,8 @@
           "label": "F_Sắp xếp thời gian",
           "count": 1
         }
-      ]
+      ],
+      "top_slowest": []
     },
     "2026-09-16": {
       "date": "2026-09-16",
@@ -4013,6 +3997,10 @@
         "phone_conversion_rate": 17.37,
         "team_avg_frt_sec": 1308.5,
         "team_median_frt_sec": 386.5,
+        "max_frt_sec": 6642,
+        "sla_pass": 13,
+        "sla_fail": 17,
+        "sla_rate": 43.3,
         "closed_deals": 6,
         "sql_leads": 46,
         "spam_blocked": 4,
@@ -4020,17 +4008,13 @@
         "web_touchpoints": 1,
         "web_phones": 0,
         "web_cr": 0.0,
-        "web_avg_lead_to_status_mins": 0,
         "chat_touchpoints": 379,
         "chat_phones": 66,
-        "chat_cr": 17.41,
-        "chat_avg_lead_to_status_mins": 0
+        "chat_cr": 17.41
       },
       "staff": [
         {
           "name": "Nguyễn Thiện Nhân",
-          "inbox": 215,
-          "comments": 0,
           "touchpoints": 215,
           "phones": 5,
           "conversion_rate": 2.33,
@@ -4038,20 +4022,13 @@
           "median_frt_sec": 1821,
           "compliance_5m_pct": 0.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Nguyễn Vũ Bảo Như",
-          "inbox": 98,
-          "comments": 0,
           "touchpoints": 98,
           "phones": 3,
           "conversion_rate": 3.06,
@@ -4059,20 +4036,13 @@
           "median_frt_sec": 102,
           "compliance_5m_pct": 85.7,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
-          "inbox": 51,
-          "comments": 0,
           "touchpoints": 51,
           "phones": 3,
           "conversion_rate": 5.88,
@@ -4080,20 +4050,13 @@
           "median_frt_sec": 166,
           "compliance_5m_pct": 85.7,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Đặng Hoàng Anh Thư",
-          "inbox": 56,
-          "comments": 0,
           "touchpoints": 56,
           "phones": 2,
           "conversion_rate": 3.57,
@@ -4101,20 +4064,13 @@
           "median_frt_sec": 1324,
           "compliance_5m_pct": 0.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Nguyễn Phương Uyên",
-          "inbox": 9,
-          "comments": 0,
           "touchpoints": 9,
           "phones": 1,
           "conversion_rate": 11.11,
@@ -4122,20 +4078,13 @@
           "median_frt_sec": 21,
           "compliance_5m_pct": 100.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Anna Đậu",
-          "inbox": 0,
-          "comments": 0,
           "touchpoints": 0,
           "phones": 1,
           "conversion_rate": 0.0,
@@ -4143,20 +4092,13 @@
           "median_frt_sec": 0,
           "compliance_5m_pct": 100.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         },
         {
           "name": "Hồ Dương Xuân Diệu",
-          "inbox": 2,
-          "comments": 0,
           "touchpoints": 2,
           "phones": 0,
           "conversion_rate": 0.0,
@@ -4164,14 +4106,9 @@
           "median_frt_sec": 455,
           "compliance_5m_pct": 0.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         }
       ],
@@ -4478,7 +4415,8 @@
           "label": "Thuê bao",
           "count": 1
         }
-      ]
+      ],
+      "top_slowest": []
     },
     "2026-09-17": {
       "date": "2026-09-17",
@@ -4491,6 +4429,10 @@
         "phone_conversion_rate": 8.16,
         "team_avg_frt_sec": 997.1,
         "team_median_frt_sec": 142,
+        "max_frt_sec": 6261,
+        "sla_pass": 27,
+        "sla_fail": 16,
+        "sla_rate": 62.8,
         "closed_deals": 7,
         "sql_leads": 32,
         "spam_blocked": 6,
@@ -4498,17 +4440,13 @@
         "web_touchpoints": 0,
         "web_phones": 0,
         "web_cr": 0.0,
-        "web_avg_lead_to_status_mins": 0,
         "chat_touchpoints": 576,
         "chat_phones": 47,
-        "chat_cr": 8.16,
-        "chat_avg_lead_to_status_mins": 192.8
+        "chat_cr": 8.16
       },
       "staff": [
         {
           "name": "Nguyễn Phương Uyên",
-          "inbox": 492,
-          "comments": 0,
           "touchpoints": 492,
           "phones": 8,
           "conversion_rate": 1.63,
@@ -4516,14 +4454,9 @@
           "median_frt_sec": 1116.0,
           "compliance_5m_pct": 41.7,
           "avg_ongoing_turnaround_sec": 585.2,
-          "median_ongoing_turnaround_sec": 142.5,
-          "ongoing_reply_count": 60,
-          "avg_lead_to_sql_mins": 0,
-          "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
+          "avg_lead_to_sql_mins": 138.0,
+          "median_lead_to_sql_mins": 138.0,
           "avg_consultation_mins": 46.8,
-          "median_consultation_mins": 42.8,
-          "consultation_sessions": 8,
           "channel_breakdown": [
             {
               "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
@@ -4543,8 +4476,6 @@
         },
         {
           "name": "Nguyễn Vũ Bảo Như",
-          "inbox": 149,
-          "comments": 0,
           "touchpoints": 149,
           "phones": 3,
           "conversion_rate": 2.01,
@@ -4552,14 +4483,9 @@
           "median_frt_sec": 167,
           "compliance_5m_pct": 72.7,
           "avg_ongoing_turnaround_sec": 262.1,
-          "median_ongoing_turnaround_sec": 164.3,
-          "ongoing_reply_count": 31,
           "avg_lead_to_sql_mins": 98.2,
           "median_lead_to_sql_mins": 98.2,
-          "sql_sample_count": 1,
           "avg_consultation_mins": 20.5,
-          "median_consultation_mins": 18.9,
-          "consultation_sessions": 4,
           "channel_breakdown": [
             {
               "channel_name": "H&H - Dinh dưỡng tối ưu",
@@ -4579,8 +4505,6 @@
         },
         {
           "name": "Nguyễn Thiện Nhân",
-          "inbox": 194,
-          "comments": 0,
           "touchpoints": 194,
           "phones": 2,
           "conversion_rate": 1.03,
@@ -4588,14 +4512,9 @@
           "median_frt_sec": 1447.5,
           "compliance_5m_pct": 37.5,
           "avg_ongoing_turnaround_sec": 455.0,
-          "median_ongoing_turnaround_sec": 38.0,
-          "ongoing_reply_count": 59,
           "avg_lead_to_sql_mins": 625.3,
           "median_lead_to_sql_mins": 625.3,
-          "sql_sample_count": 1,
           "avg_consultation_mins": 27.2,
-          "median_consultation_mins": 13.1,
-          "consultation_sessions": 15,
           "channel_breakdown": [
             {
               "channel_name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
@@ -4636,8 +4555,6 @@
         },
         {
           "name": "Hồ Dương Xuân Diệu",
-          "inbox": 79,
-          "comments": 0,
           "touchpoints": 79,
           "phones": 2,
           "conversion_rate": 2.53,
@@ -4645,14 +4562,9 @@
           "median_frt_sec": 101.0,
           "compliance_5m_pct": 90.0,
           "avg_ongoing_turnaround_sec": 179.2,
-          "median_ongoing_turnaround_sec": 49.2,
-          "ongoing_reply_count": 42,
           "avg_lead_to_sql_mins": 23.8,
           "median_lead_to_sql_mins": 23.8,
-          "sql_sample_count": 2,
           "avg_consultation_mins": 42.8,
-          "median_consultation_mins": 22.5,
-          "consultation_sessions": 3,
           "channel_breakdown": [
             {
               "channel_name": "H&H - Dinh dưỡng tối ưu",
@@ -4665,8 +4577,6 @@
         },
         {
           "name": "Đặng Hoàng Anh Thư",
-          "inbox": 17,
-          "comments": 0,
           "touchpoints": 17,
           "phones": 0,
           "conversion_rate": 0.0,
@@ -4674,14 +4584,9 @@
           "median_frt_sec": 101.0,
           "compliance_5m_pct": 100.0,
           "avg_ongoing_turnaround_sec": 0,
-          "median_ongoing_turnaround_sec": 0,
-          "ongoing_reply_count": 0,
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
-          "sql_sample_count": 0,
           "avg_consultation_mins": 0,
-          "median_consultation_mins": 0,
-          "consultation_sessions": 0,
           "channel_breakdown": []
         }
       ],
@@ -4988,6 +4893,43 @@
           "label": "F_Vướng thanh toán",
           "count": 1
         }
+      ],
+      "top_slowest": [
+        {
+          "page": "BS Hùng Dinh Dưỡng - NERCI",
+          "staff": "Chưa gán",
+          "frt_sec": 8173350,
+          "hour": "07:53",
+          "status": "Đang tư vấn"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 2386933,
+          "hour": "14:01",
+          "status": "F_Ở Xa"
+        },
+        {
+          "page": "BS Hùng Dinh Dưỡng - NERCI",
+          "staff": "Chưa gán",
+          "frt_sec": 488634,
+          "hour": "04:34",
+          "status": "Đang tư vấn"
+        },
+        {
+          "page": "Nerci",
+          "staff": "Chưa gán",
+          "frt_sec": 73842,
+          "hour": "07:10",
+          "status": "Trùng "
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 43578,
+          "hour": "13:26",
+          "status": "F_Sắp Xếp TG"
+        }
       ]
     }
   },
@@ -4998,7 +4940,7 @@
       "phones": 82,
       "cr": 8.86,
       "avg_frt_sec": 992.8,
-      "closed_deals": 7
+      "sla_rate": 50.0
     },
     {
       "date": "2026-09-12",
@@ -5006,7 +4948,7 @@
       "phones": 69,
       "cr": 18.11,
       "avg_frt_sec": 1860.4,
-      "closed_deals": 3
+      "sla_rate": 23.5
     },
     {
       "date": "2026-09-13",
@@ -5014,7 +4956,7 @@
       "phones": 48,
       "cr": 19.43,
       "avg_frt_sec": 1613.4,
-      "closed_deals": 2
+      "sla_rate": 38.9
     },
     {
       "date": "2026-09-14",
@@ -5022,7 +4964,7 @@
       "phones": 98,
       "cr": 27.53,
       "avg_frt_sec": 1080.0,
-      "closed_deals": 4
+      "sla_rate": 41.0
     },
     {
       "date": "2026-09-15",
@@ -5030,7 +4972,7 @@
       "phones": 65,
       "cr": 15.12,
       "avg_frt_sec": 2453.1,
-      "closed_deals": 4
+      "sla_rate": 28.6
     },
     {
       "date": "2026-09-16",
@@ -5038,7 +4980,7 @@
       "phones": 66,
       "cr": 17.37,
       "avg_frt_sec": 1308.5,
-      "closed_deals": 6
+      "sla_rate": 43.3
     },
     {
       "date": "2026-09-17",
@@ -5046,7 +4988,7 @@
       "phones": 47,
       "cr": 8.16,
       "avg_frt_sec": 997.1,
-      "closed_deals": 7
+      "sla_rate": 62.8
     }
   ]
 }
