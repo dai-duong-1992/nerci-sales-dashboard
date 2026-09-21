@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "NERCI Sales & SLA 30-Day & Monthly Multi-Channel Intelligence",
-    "updated_at": "2026-09-21 12:03:41 (GMT+7)",
+    "updated_at": "2026-09-21 12:12:52 (GMT+7)",
     "latest_date": "2026-09-20",
     "available_dates": [
       "2026-08-19",
@@ -2167,7 +2167,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 184,
+              "phones": 9,
+              "cr": 4.9
+            },
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu (Zalo)",
+              "inbox": 46,
+              "phones": 3,
+              "cr": 6.5
+            }
+          ]
         },
         {
           "name": "Nguyễn Thiện Nhân",
@@ -2181,7 +2194,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Tuyển Sinh Đào Tạo",
+              "inbox": 153,
+              "phones": 5,
+              "cr": 3.3
+            },
+            {
+              "channel_name": "NERCI.vn - Viện NC & TV Dinh Dưỡng",
+              "inbox": 27,
+              "phones": 1,
+              "cr": 3.7
+            }
+          ]
         },
         {
           "name": "Nguyễn Phương Uyên",
@@ -2195,7 +2221,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 66,
+              "phones": 3,
+              "cr": 4.5
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
+              "inbox": 29,
+              "phones": 2,
+              "cr": 6.9
+            }
+          ]
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
@@ -2209,7 +2248,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 140,
+              "phones": 4,
+              "cr": 2.9
+            }
+          ]
         }
       ],
       "channels": [
@@ -2474,7 +2520,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 196,
+              "phones": 11,
+              "cr": 5.6
+            },
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu (Zalo)",
+              "inbox": 49,
+              "phones": 3,
+              "cr": 6.1
+            }
+          ]
         },
         {
           "name": "Nguyễn Thiện Nhân",
@@ -2488,7 +2547,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Tuyển Sinh Đào Tạo",
+              "inbox": 148,
+              "phones": 6,
+              "cr": 4.1
+            },
+            {
+              "channel_name": "NERCI.vn - Viện NC & TV Dinh Dưỡng",
+              "inbox": 27,
+              "phones": 2,
+              "cr": 7.4
+            }
+          ]
         },
         {
           "name": "Nguyễn Phương Uyên",
@@ -2502,7 +2574,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 73,
+              "phones": 4,
+              "cr": 5.5
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
+              "inbox": 32,
+              "phones": 3,
+              "cr": 9.4
+            }
+          ]
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
@@ -2516,7 +2601,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 130,
+              "phones": 5,
+              "cr": 3.8
+            }
+          ]
         }
       ],
       "channels": [
@@ -2775,7 +2867,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 208,
+              "phones": 12,
+              "cr": 5.8
+            },
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu (Zalo)",
+              "inbox": 52,
+              "phones": 3,
+              "cr": 5.8
+            }
+          ]
         },
         {
           "name": "Nguyễn Thiện Nhân",
@@ -2789,7 +2894,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Tuyển Sinh Đào Tạo",
+              "inbox": 161,
+              "phones": 5,
+              "cr": 3.1
+            },
+            {
+              "channel_name": "NERCI.vn - Viện NC & TV Dinh Dưỡng",
+              "inbox": 29,
+              "phones": 2,
+              "cr": 6.9
+            }
+          ]
         },
         {
           "name": "Nguyễn Phương Uyên",
@@ -2803,7 +2921,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 77,
+              "phones": 4,
+              "cr": 5.2
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
+              "inbox": 33,
+              "phones": 2,
+              "cr": 6.1
+            }
+          ]
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
@@ -2817,7 +2948,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 150,
+              "phones": 5,
+              "cr": 3.3
+            }
+          ]
         }
       ],
       "channels": [
@@ -3095,7 +3233,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 200,
+              "phones": 10,
+              "cr": 5.0
+            },
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu (Zalo)",
+              "inbox": 50,
+              "phones": 3,
+              "cr": 6.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thiện Nhân",
@@ -3109,7 +3260,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Tuyển Sinh Đào Tạo",
+              "inbox": 157,
+              "phones": 5,
+              "cr": 3.2
+            },
+            {
+              "channel_name": "NERCI.vn - Viện NC & TV Dinh Dưỡng",
+              "inbox": 28,
+              "phones": 1,
+              "cr": 3.6
+            }
+          ]
         },
         {
           "name": "Nguyễn Phương Uyên",
@@ -3123,7 +3287,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 70,
+              "phones": 3,
+              "cr": 4.3
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
+              "inbox": 30,
+              "phones": 2,
+              "cr": 6.7
+            }
+          ]
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
@@ -3137,7 +3314,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 145,
+              "phones": 4,
+              "cr": 2.8
+            }
+          ]
         }
       ],
       "channels": [
@@ -4698,7 +4882,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 59,
+              "phones": 4,
+              "cr": 6.8
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
+              "inbox": 26,
+              "phones": 2,
+              "cr": 7.7
+            }
+          ]
         },
         {
           "name": "Nguyễn Thiện Nhân",
@@ -4712,7 +4909,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Tuyển Sinh Đào Tạo",
+              "inbox": 335,
+              "phones": 3,
+              "cr": 0.9
+            },
+            {
+              "channel_name": "NERCI.vn - Viện NC & TV Dinh Dưỡng",
+              "inbox": 60,
+              "phones": 1,
+              "cr": 1.7
+            }
+          ]
         },
         {
           "name": "Nguyễn Châu Hồng Thủy",
@@ -4726,7 +4936,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 263,
+              "phones": 3,
+              "cr": 1.1
+            }
+          ]
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
@@ -4740,7 +4957,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 304,
+              "phones": 2,
+              "cr": 0.7
+            }
+          ]
         },
         {
           "name": "Hồ Dương Xuân Diệu",
@@ -4754,7 +4978,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 77,
+              "phones": 0,
+              "cr": 0.0
+            },
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu (Zalo)",
+              "inbox": 20,
+              "phones": 1,
+              "cr": 5.0
+            }
+          ]
         },
         {
           "name": "Đặng Hoàng Anh Thư",
@@ -4768,7 +5005,14 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 35,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         }
       ],
       "channels": [
@@ -5068,7 +5312,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 76,
+              "phones": 2,
+              "cr": 2.6
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
+              "inbox": 33,
+              "phones": 1,
+              "cr": 3.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thiện Nhân",
@@ -5082,7 +5339,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Tuyển Sinh Đào Tạo",
+              "inbox": 300,
+              "phones": 0,
+              "cr": 0.0
+            },
+            {
+              "channel_name": "NERCI.vn - Viện NC & TV Dinh Dưỡng",
+              "inbox": 53,
+              "phones": 1,
+              "cr": 1.9
+            }
+          ]
         },
         {
           "name": "Nguyễn Châu Hồng Thủy",
@@ -5096,7 +5366,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 0,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 0,
+              "phones": 1,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
@@ -5110,7 +5387,14 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 250,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Hồ Dương Xuân Diệu",
@@ -5124,7 +5408,20 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 49,
+              "phones": 0,
+              "cr": 0.0
+            },
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu (Zalo)",
+              "inbox": 13,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Đặng Hoàng Anh Thư",
@@ -5138,7 +5435,14 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 29,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         }
       ],
       "channels": [
@@ -5432,7 +5736,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Tuyển Sinh Đào Tạo",
+              "inbox": 361,
+              "phones": 4,
+              "cr": 1.1
+            },
+            {
+              "channel_name": "NERCI.vn - Viện NC & TV Dinh Dưỡng",
+              "inbox": 64,
+              "phones": 1,
+              "cr": 1.6
+            }
+          ]
         },
         {
           "name": "Nguyễn Phương Uyên",
@@ -5446,7 +5763,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 21,
+              "phones": 2,
+              "cr": 9.5
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
+              "inbox": 10,
+              "phones": 1,
+              "cr": 10.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
@@ -5460,7 +5790,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 252,
+              "phones": 2,
+              "cr": 0.8
+            }
+          ]
         },
         {
           "name": "Hồ Dương Xuân Diệu",
@@ -5474,7 +5811,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 0,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 0,
+              "phones": 0,
+              "cr": 0.0
+            },
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu (Zalo)",
+              "inbox": 0,
+              "phones": 1,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Châu Hồng Thủy",
@@ -5488,7 +5838,14 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 246,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Đặng Hoàng Anh Thư",
@@ -5502,7 +5859,14 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 5,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         }
       ],
       "channels": [
@@ -5788,7 +6152,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 227,
+              "phones": 4,
+              "cr": 1.8
+            }
+          ]
         },
         {
           "name": "Nguyễn Thiện Nhân",
@@ -5802,7 +6173,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Tuyển Sinh Đào Tạo",
+              "inbox": 371,
+              "phones": 2,
+              "cr": 0.5
+            },
+            {
+              "channel_name": "NERCI.vn - Viện NC & TV Dinh Dưỡng",
+              "inbox": 66,
+              "phones": 1,
+              "cr": 1.5
+            }
+          ]
         },
         {
           "name": "Nguyễn Châu Hồng Thủy",
@@ -5816,7 +6200,14 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 281,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Phương Uyên",
@@ -5830,7 +6221,20 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 59,
+              "phones": 0,
+              "cr": 0.0
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
+              "inbox": 26,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Hồ Dương Xuân Diệu",
@@ -5844,7 +6248,20 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 67,
+              "phones": 0,
+              "cr": 0.0
+            },
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu (Zalo)",
+              "inbox": 17,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Đặng Hoàng Anh Thư",
@@ -5858,7 +6275,14 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 5,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         }
       ],
       "channels": [
@@ -6152,7 +6576,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI",
+              "inbox": 10,
+              "phones": 5,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 6,
+              "phones": 3,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thiện Nhân",
@@ -6166,7 +6603,32 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+              "inbox": 40,
+              "phones": 20,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 8,
+              "phones": 4,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+              "inbox": 8,
+              "phones": 4,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
@@ -6180,7 +6642,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 6,
+              "phones": 3,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu",
+              "inbox": 4,
+              "phones": 2,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Hồ Dương Xuân  Diệu",
@@ -6194,7 +6669,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 4,
+              "phones": 2,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Châu Hồng Thủy",
@@ -6208,7 +6690,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 18,
+              "phones": 9,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Đặng Hoàng Anh Thư",
@@ -6222,7 +6717,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         }
       ],
       "channels": [
@@ -6583,7 +7085,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 335,
+              "phones": 4,
+              "cr": 1.2
+            }
+          ]
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
@@ -6597,7 +7106,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H",
+              "inbox": 4,
+              "phones": 2,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thiện Nhân",
@@ -6611,7 +7127,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+              "inbox": 8,
+              "phones": 4,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Phương Uyên",
@@ -6625,7 +7148,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 1,
+              "phones": 0,
+              "cr": 0.0
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
+              "inbox": 1,
+              "phones": 1,
+              "cr": 100.0
+            }
+          ]
         },
         {
           "name": "Hồ Dương Xuân  Diệu",
@@ -6639,7 +7175,14 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Đặng Hoàng Anh Thư",
@@ -6653,7 +7196,14 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 15,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         }
       ],
       "channels": [
@@ -7014,7 +7564,26 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 12,
+              "phones": 6,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI",
+              "inbox": 4,
+              "phones": 2,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thiện Nhân",
@@ -7028,7 +7597,26 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+              "inbox": 50,
+              "phones": 25,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
@@ -7042,7 +7630,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 10,
+              "phones": 5,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Châu Hồng Thủy",
@@ -7056,7 +7651,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 16,
+              "phones": 8,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Đặng Hoàng Anh Thư",
@@ -7070,7 +7672,14 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 33,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Hồ Dương Xuân  Diệu",
@@ -7084,7 +7693,14 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu",
+              "inbox": 4,
+              "phones": 2,
+              "cr": 50.0
+            }
+          ]
         }
       ],
       "channels": [
@@ -7457,7 +8073,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu",
+              "inbox": 8,
+              "phones": 4,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 4,
+              "phones": 2,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thiện Nhân",
@@ -7471,7 +8100,26 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+              "inbox": 76,
+              "phones": 38,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 4,
+              "phones": 2,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Phương Uyên",
@@ -7485,7 +8133,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 30,
+              "phones": 15,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Đặng Hoàng Anh Thư",
@@ -7499,7 +8160,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 287,
+              "phones": 1,
+              "cr": 0.3
+            }
+          ]
         },
         {
           "name": "Hồ Dương Xuân  Diệu",
@@ -7513,7 +8181,14 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 6,
+              "phones": 3,
+              "cr": 50.0
+            }
+          ]
         }
       ],
       "channels": [
@@ -7880,7 +8555,32 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+              "inbox": 11,
+              "phones": 8,
+              "cr": 72.7
+            },
+            {
+              "channel_name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+              "inbox": 5,
+              "phones": 3,
+              "cr": 60.0
+            },
+            {
+              "channel_name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+              "inbox": 13,
+              "phones": 2,
+              "cr": 15.4
+            },
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 1,
+              "phones": 1,
+              "cr": 100.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Châu Hồng Thủy",
@@ -7894,7 +8594,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 13,
+              "phones": 9,
+              "cr": 69.2
+            }
+          ]
         },
         {
           "name": "Nguyễn Phương Uyên",
@@ -7908,7 +8615,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 0,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 5,
+              "phones": 2,
+              "cr": 40.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
@@ -7922,7 +8636,26 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu",
+              "inbox": 6,
+              "phones": 3,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "H&H",
+              "inbox": 1,
+              "phones": 1,
+              "cr": 100.0
+            },
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 11,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Hồ Dương Xuân  Diệu",
@@ -7936,7 +8669,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 4,
+              "phones": 1,
+              "cr": 25.0
+            },
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu",
+              "inbox": 1,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Vũ Bảo Như",
@@ -7950,7 +8696,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 0,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 0,
+              "phones": 0,
+              "cr": 0.0
+            },
+            {
+              "channel_name": "NERCI Academy - Tuyển Sinh Đào Tạo",
+              "inbox": 0,
+              "phones": 1,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Đặng Hoàng Anh Thư",
@@ -7964,7 +8723,14 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H",
+              "inbox": 1,
+              "phones": 1,
+              "cr": 100.0
+            }
+          ]
         }
       ],
       "channels": [
@@ -8337,7 +9103,32 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+              "inbox": 32,
+              "phones": 25,
+              "cr": 78.1
+            },
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 2,
+              "phones": 3,
+              "cr": 150.0
+            },
+            {
+              "channel_name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+              "inbox": 6,
+              "phones": 2,
+              "cr": 33.3
+            },
+            {
+              "channel_name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Phương Uyên",
@@ -8351,7 +9142,26 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 30,
+              "phones": 19,
+              "cr": 63.3
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI",
+              "inbox": 7,
+              "phones": 4,
+              "cr": 57.1
+            },
+            {
+              "channel_name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+              "inbox": 1,
+              "phones": 1,
+              "cr": 100.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Vũ Bảo Như",
@@ -8365,7 +9175,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 0,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 0,
+              "phones": 0,
+              "cr": 0.0
+            },
+            {
+              "channel_name": "NERCI Academy - Tuyển Sinh Đào Tạo",
+              "inbox": 0,
+              "phones": 1,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Đặng Hoàng Anh Thư",
@@ -8379,7 +9202,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 0,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 0,
+              "phones": 1,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Châu Hồng Thủy",
@@ -8393,7 +9223,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 0,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 3,
+              "phones": 2,
+              "cr": 66.7
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Hồ Dương Xuân  Diệu",
@@ -8407,7 +9250,14 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 1,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         }
       ],
       "channels": [
@@ -8758,7 +9608,32 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+              "inbox": 37,
+              "phones": 29,
+              "cr": 78.4
+            },
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 3,
+              "phones": 3,
+              "cr": 100.0
+            },
+            {
+              "channel_name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+              "inbox": 1,
+              "phones": 1,
+              "cr": 100.0
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI",
+              "inbox": 1,
+              "phones": 1,
+              "cr": 100.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Phương Uyên",
@@ -8772,7 +9647,26 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 52,
+              "phones": 49,
+              "cr": 94.2
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI",
+              "inbox": 11,
+              "phones": 4,
+              "cr": 36.4
+            },
+            {
+              "channel_name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+              "inbox": 1,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Đặng Hoàng Anh Thư",
@@ -8786,7 +9680,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 2,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Vũ Bảo Như",
@@ -8800,7 +9701,20 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 19,
+              "phones": 2,
+              "cr": 10.5
+            },
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu",
+              "inbox": 7,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Hồ Dương Xuân  Diệu",
@@ -8814,7 +9728,26 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu",
+              "inbox": 4,
+              "phones": 2,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 3,
+              "phones": 2,
+              "cr": 66.7
+            },
+            {
+              "channel_name": "H&H",
+              "inbox": 1,
+              "phones": 1,
+              "cr": 100.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
@@ -8828,7 +9761,20 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu",
+              "inbox": 4,
+              "phones": 1,
+              "cr": 25.0
+            },
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 3,
+              "phones": 1,
+              "cr": 33.3
+            }
+          ]
         }
       ],
       "channels": [
@@ -9195,7 +10141,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Phương Uyên",
@@ -9209,7 +10162,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 72,
+              "phones": 36,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thiện Nhân",
@@ -9223,7 +10189,26 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+              "inbox": 88,
+              "phones": 44,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 4,
+              "phones": 2,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
@@ -9237,7 +10222,26 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu",
+              "inbox": 8,
+              "phones": 4,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "H&H",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Hồ Dương Xuân  Diệu",
@@ -9251,7 +10255,14 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         }
       ],
       "channels": [
@@ -9618,7 +10629,32 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+              "inbox": 76,
+              "phones": 38,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+              "inbox": 6,
+              "phones": 3,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Vũ Bảo Như",
@@ -9632,7 +10668,26 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
@@ -9646,7 +10701,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu",
+              "inbox": 6,
+              "phones": 3,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 4,
+              "phones": 2,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Đặng Hoàng Anh Thư",
@@ -9660,7 +10728,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 56,
+              "phones": 2,
+              "cr": 3.6
+            }
+          ]
         },
         {
           "name": "Nguyễn Phương Uyên",
@@ -9674,7 +10749,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 38,
+              "phones": 19,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Hồ Dương Xuân Diệu",
@@ -9688,7 +10770,20 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         }
       ],
       "channels": [
@@ -10055,7 +11150,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 25,
+              "phones": 7,
+              "cr": 28.0
+            },
+            {
+              "channel_name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+              "inbox": 1,
+              "phones": 1,
+              "cr": 100.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Vũ Bảo Như",
@@ -10069,7 +11177,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu",
+              "inbox": 6,
+              "phones": 3,
+              "cr": 50.0
+            },
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 2,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thiện Nhân",
@@ -10083,7 +11204,38 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+              "inbox": 36,
+              "phones": 34,
+              "cr": 94.4
+            },
+            {
+              "channel_name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+              "inbox": 4,
+              "phones": 1,
+              "cr": 25.0
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI",
+              "inbox": 1,
+              "phones": 1,
+              "cr": 100.0
+            },
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 1,
+              "phones": 0,
+              "cr": 0.0
+            },
+            {
+              "channel_name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+              "inbox": 1,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Hồ Dương Xuân Diệu",
@@ -10097,7 +11249,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu",
+              "inbox": 7,
+              "phones": 5,
+              "cr": 71.4
+            }
+          ]
         },
         {
           "name": "Đặng Hoàng Anh Thư",
@@ -10111,7 +11270,14 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 17,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         }
       ],
       "channels": [
@@ -10478,7 +11644,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+              "inbox": 1,
+              "phones": 1,
+              "cr": 100.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thiện Nhân",
@@ -10492,7 +11665,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+              "inbox": 4,
+              "phones": 3,
+              "cr": 75.0
+            },
+            {
+              "channel_name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+              "inbox": 1,
+              "phones": 2,
+              "cr": 200.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
@@ -10506,7 +11692,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 57,
+              "phones": 2,
+              "cr": 3.5
+            }
+          ]
         },
         {
           "name": "Nguyễn Châu Hồng Thủy",
@@ -10520,7 +11713,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 0,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 0,
+              "phones": 2,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Vũ Bảo Như",
@@ -10534,7 +11734,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 102,
+              "phones": 0,
+              "cr": 0.0
+            },
+            {
+              "channel_name": "NERCI Academy - Tuyển Sinh Đào Tạo",
+              "inbox": 69,
+              "phones": 1,
+              "cr": 1.4
+            }
+          ]
         },
         {
           "name": "Hồ Dương Xuân Diệu",
@@ -10548,7 +11761,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 22,
+              "phones": 0,
+              "cr": 0.0
+            },
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu (Zalo)",
+              "inbox": 6,
+              "phones": 1,
+              "cr": 16.7
+            }
+          ]
         },
         {
           "name": "Đặng Hoàng Anh Thư",
@@ -10562,7 +11788,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 20,
+              "phones": 1,
+              "cr": 5.0
+            }
+          ]
         }
       ],
       "channels": [
@@ -10929,7 +12162,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 17,
+              "phones": 6,
+              "cr": 35.3
+            },
+            {
+              "channel_name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+              "inbox": 2,
+              "phones": 1,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thiện Nhân",
@@ -10943,7 +12189,20 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+              "inbox": 4,
+              "phones": 3,
+              "cr": 75.0
+            },
+            {
+              "channel_name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+              "inbox": 4,
+              "phones": 2,
+              "cr": 50.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Vũ Bảo Như",
@@ -10957,7 +12216,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 13,
+              "phones": 4,
+              "cr": 30.8
+            }
+          ]
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
@@ -10971,7 +12237,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 8,
+              "phones": 2,
+              "cr": 25.0
+            }
+          ]
         },
         {
           "name": "Hồ Dương Xuân Diệu",
@@ -10985,7 +12258,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 4,
+              "phones": 3,
+              "cr": 75.0
+            }
+          ]
         },
         {
           "name": "Đặng Hoàng Anh Thư",
@@ -10999,7 +12279,14 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 8,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         }
       ],
       "channels": [
@@ -11366,7 +12653,26 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 26,
+              "phones": 6,
+              "cr": 23.1
+            },
+            {
+              "channel_name": "BS Hùng Dinh Dưỡng - NERCI",
+              "inbox": 3,
+              "phones": 3,
+              "cr": 100.0
+            },
+            {
+              "channel_name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+              "inbox": 1,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Nguyễn Thị Hồng Yến",
@@ -11380,7 +12686,14 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 16,
+              "phones": 3,
+              "cr": 18.8
+            }
+          ]
         },
         {
           "name": "Nguyễn Thiện Nhân",
@@ -11394,7 +12707,26 @@
           "avg_lead_to_sql_mins": 35.0,
           "median_lead_to_sql_mins": 25.0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+              "inbox": 45,
+              "phones": 39,
+              "cr": 86.7
+            },
+            {
+              "channel_name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+              "inbox": 4,
+              "phones": 1,
+              "cr": 25.0
+            },
+            {
+              "channel_name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+              "inbox": 1,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         },
         {
           "name": "Đặng Hoàng Anh Thư",
@@ -11408,7 +12740,14 @@
           "avg_lead_to_sql_mins": 0,
           "median_lead_to_sql_mins": 0,
           "avg_consultation_mins": 28.5,
-          "channel_breakdown": []
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 4,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
         }
       ],
       "channels": [
