@@ -907,6 +907,8 @@
       if (tabId === 'deep-sla') {
         if (hourlyChartInst) hourlyChartInst.resize();
         if (channelChartInst) channelChartInst.resize();
+        if (frtConvChartInst) frtConvChartInst.resize();
+        if (dropoffChartInst) dropoffChartInst.resize();
       }
     }
 
@@ -987,6 +989,7 @@
         renderDeepSlaTab(val);
       } else {
         renderOverviewMonth(val);
+        renderDeepSlaMonth(val);
       }
     }
 
@@ -1389,9 +1392,90 @@ ${reg.future.map(f => `Chu kỳ +${f.x}: <span class="r">${f.y} phút</span>`).j
       dropoffChartInst = new Chart(dEl, {
         type: 'bar',
         data: {
-          labels: day.dropoff_reasons.map(d => d.label),
+          labels: (day.dropoff_reasons || []).map(d => d.label),
           datasets: [{
-            data: day.dropoff_reasons.map(d => d.count),
+            data: (day.dropoff_reasons || []).map(d => d.count),
+            backgroundColor: 'rgba(244, 63, 94, 0.75)',
+            borderRadius: 4
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } }
+        }
+      });
+    }
+
+    function renderDeepSlaMonth(monthKey) {
+      const mObj = DATA.months ? DATA.months[monthKey] : null;
+      if (!mObj) return;
+
+      // Hourly
+      const hEl = document.getElementById('hourlyChart');
+      if (hourlyChartInst) hourlyChartInst.destroy();
+      const hourlyData = mObj.hourly || [];
+      hourlyChartInst = new Chart(hEl, {
+        type: 'bar',
+        data: {
+          labels: hourlyData.map(h => h.hour),
+          datasets: [
+            { label: 'Tương tác TB/Ngày', data: hourlyData.map(h => h.inbox), backgroundColor: '#38BDF8', borderRadius: 4 },
+            { label: 'SĐT TB/Ngày', data: hourlyData.map(h => h.phones), backgroundColor: '#4ADE80', borderRadius: 4 }
+          ]
+        },
+        options: { responsive: true, maintainAspectRatio: false }
+      });
+
+      // Channels
+      const cEl = document.getElementById('channelChart');
+      if (channelChartInst) channelChartInst.destroy();
+      const topCh = (mObj.channels || []).slice(0, 6);
+      channelChartInst = new Chart(cEl, {
+        type: 'doughnut',
+        data: {
+          labels: topCh.map(c => c.name.length > 20 ? c.name.slice(0, 18) + '..' : c.name),
+          datasets: [{
+            data: topCh.map(c => c.inbox + c.comments),
+            backgroundColor: ['#38BDF8', '#818CF8', '#C084FC', '#F43F5E', '#FBBF24', '#2DD4BF'],
+            borderWidth: 0
+          }]
+        },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom', labels: { boxWidth: 12 } } } }
+      });
+
+      // FRT vs Conversion
+      const fcEl = document.getElementById('frtConvChart');
+      if (frtConvChartInst) frtConvChartInst.destroy();
+      frtConvChartInst = new Chart(fcEl, {
+        type: 'bar',
+        data: {
+          labels: ['≤1 phút', '≤3 phút', '≤5 phút', '≤10 phút', '≤30 phút', '>30 phút'],
+          datasets: [{
+            label: 'Tỷ Lệ Chốt Thành Công (%)',
+            data: [4.6, 16.0, 12.5, 16.7, 12.5, 0.0],
+            backgroundColor: ['#4ADE80', '#22C55E', '#FBBF24', '#F59E0B', '#FB923C', '#EF4444'],
+            borderRadius: 6
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: { y: { beginAtZero: true, max: 20, ticks: { callback: v => v + '%' } } }
+        }
+      });
+
+      // Dropoffs
+      const dEl = document.getElementById('dropoffChart');
+      if (dropoffChartInst) dropoffChartInst.destroy();
+      const dropoffs = mObj.dropoff_reasons || [];
+      dropoffChartInst = new Chart(dEl, {
+        type: 'bar',
+        data: {
+          labels: dropoffs.map(d => d.label),
+          datasets: [{
+            data: dropoffs.map(d => d.count),
             backgroundColor: 'rgba(244, 63, 94, 0.75)',
             borderRadius: 4
           }]

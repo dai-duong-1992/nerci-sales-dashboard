@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "NERCI Sales & SLA 30-Day & Monthly Multi-Channel Intelligence",
-    "updated_at": "2026-09-21 12:12:52 (GMT+7)",
+    "updated_at": "2026-09-21 12:26:33 (GMT+7)",
     "latest_date": "2026-09-20",
     "available_dates": [
       "2026-08-19",
@@ -671,7 +671,245 @@
       "conversion_rate": 3.11,
       "avg_frt_sec": 0.0,
       "median_frt_sec": 0.0,
-      "sla_rate": 82.5
+      "sla_rate": 82.5,
+      "dropoff_reasons": [
+        {
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 4604
+        },
+        {
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 1798
+        },
+        {
+          "label": "Spam / Rác",
+          "count": 795
+        },
+        {
+          "label": "F_Suy nghĩ thêm",
+          "count": 595
+        },
+        {
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 394
+        },
+        {
+          "label": "F_Sắp xếp thời gian",
+          "count": 295
+        },
+        {
+          "label": "F_Giá cao",
+          "count": 194
+        },
+        {
+          "label": "Trùng lặp",
+          "count": 194
+        },
+        {
+          "label": "KBM (Không bắt máy)",
+          "count": 46
+        },
+        {
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 17
+        }
+      ],
+      "channels": [
+        {
+          "name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+          "platform": "facebook",
+          "inbox": 291,
+          "comments": 24,
+          "phones": 85,
+          "conversion_rate": 26.98
+        },
+        {
+          "name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "platform": "facebook",
+          "inbox": 1745,
+          "comments": 193,
+          "phones": 72,
+          "conversion_rate": 3.72
+        },
+        {
+          "name": "BS Hùng Dinh Dưỡng - NERCI",
+          "platform": "tiktok",
+          "inbox": 338,
+          "comments": 4647,
+          "phones": 51,
+          "conversion_rate": 1.02
+        },
+        {
+          "name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "platform": "facebook",
+          "inbox": 1088,
+          "comments": 61,
+          "phones": 39,
+          "conversion_rate": 3.39
+        },
+        {
+          "name": "H&H - Dinh dưỡng tối ưu",
+          "platform": "zalo",
+          "inbox": 836,
+          "comments": 0,
+          "phones": 33,
+          "conversion_rate": 3.95
+        },
+        {
+          "name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+          "platform": "facebook",
+          "inbox": 504,
+          "comments": 66,
+          "phones": 23,
+          "conversion_rate": 4.04
+        },
+        {
+          "name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+          "platform": "zalo",
+          "inbox": 204,
+          "comments": 0,
+          "phones": 8,
+          "conversion_rate": 3.92
+        },
+        {
+          "name": "H&H",
+          "platform": "pke_chat_plugin",
+          "inbox": 19,
+          "comments": 0,
+          "phones": 1,
+          "conversion_rate": 5.26
+        },
+        {
+          "name": "Nerci",
+          "platform": "pke_chat_plugin",
+          "inbox": 8,
+          "comments": 0,
+          "phones": 0,
+          "conversion_rate": 0.0
+        }
+      ],
+      "hourly": [
+        {
+          "hour": "00:00",
+          "inbox": 2,
+          "phones": 0
+        },
+        {
+          "hour": "01:00",
+          "inbox": 2,
+          "phones": 0
+        },
+        {
+          "hour": "02:00",
+          "inbox": 2,
+          "phones": 0
+        },
+        {
+          "hour": "03:00",
+          "inbox": 1,
+          "phones": 0
+        },
+        {
+          "hour": "04:00",
+          "inbox": 1,
+          "phones": 0
+        },
+        {
+          "hour": "05:00",
+          "inbox": 2,
+          "phones": 0
+        },
+        {
+          "hour": "06:00",
+          "inbox": 5,
+          "phones": 0
+        },
+        {
+          "hour": "07:00",
+          "inbox": 10,
+          "phones": 1
+        },
+        {
+          "hour": "08:00",
+          "inbox": 26,
+          "phones": 1
+        },
+        {
+          "hour": "09:00",
+          "inbox": 31,
+          "phones": 2
+        },
+        {
+          "hour": "10:00",
+          "inbox": 33,
+          "phones": 2
+        },
+        {
+          "hour": "11:00",
+          "inbox": 27,
+          "phones": 1
+        },
+        {
+          "hour": "12:00",
+          "inbox": 24,
+          "phones": 2
+        },
+        {
+          "hour": "13:00",
+          "inbox": 28,
+          "phones": 2
+        },
+        {
+          "hour": "14:00",
+          "inbox": 29,
+          "phones": 2
+        },
+        {
+          "hour": "15:00",
+          "inbox": 31,
+          "phones": 2
+        },
+        {
+          "hour": "16:00",
+          "inbox": 28,
+          "phones": 1
+        },
+        {
+          "hour": "17:00",
+          "inbox": 18,
+          "phones": 1
+        },
+        {
+          "hour": "18:00",
+          "inbox": 16,
+          "phones": 1
+        },
+        {
+          "hour": "19:00",
+          "inbox": 20,
+          "phones": 1
+        },
+        {
+          "hour": "20:00",
+          "inbox": 19,
+          "phones": 1
+        },
+        {
+          "hour": "21:00",
+          "inbox": 16,
+          "phones": 1
+        },
+        {
+          "hour": "22:00",
+          "inbox": 13,
+          "phones": 2
+        },
+        {
+          "hour": "23:00",
+          "inbox": 5,
+          "phones": 1
+        }
+      ]
     },
     "2026-09": {
       "key": "2026-09",
@@ -682,7 +920,253 @@
       "conversion_rate": 9.21,
       "avg_frt_sec": 1284.9,
       "median_frt_sec": 899.4,
-      "sla_rate": 82.5
+      "sla_rate": 82.5,
+      "dropoff_reasons": [
+        {
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 2448
+        },
+        {
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 929
+        },
+        {
+          "label": "Spam / Rác",
+          "count": 382
+        },
+        {
+          "label": "F_Suy nghĩ thêm",
+          "count": 262
+        },
+        {
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 180
+        },
+        {
+          "label": "F_Sắp xếp thời gian",
+          "count": 145
+        },
+        {
+          "label": "Trùng lặp",
+          "count": 117
+        },
+        {
+          "label": "F_Giá cao",
+          "count": 76
+        },
+        {
+          "label": "KBM (Không bắt máy)",
+          "count": 73
+        },
+        {
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 40
+        }
+      ],
+      "channels": [
+        {
+          "name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+          "platform": "facebook",
+          "inbox": 1220,
+          "comments": 40,
+          "phones": 471,
+          "conversion_rate": 37.38
+        },
+        {
+          "name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "platform": "facebook",
+          "inbox": 1775,
+          "comments": 73,
+          "phones": 214,
+          "conversion_rate": 11.58
+        },
+        {
+          "name": "BS Hùng Dinh Dưỡng - NERCI",
+          "platform": "tiktok",
+          "inbox": 435,
+          "comments": 2623,
+          "phones": 79,
+          "conversion_rate": 2.58
+        },
+        {
+          "name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "platform": "facebook",
+          "inbox": 1408,
+          "comments": 131,
+          "phones": 58,
+          "conversion_rate": 3.77
+        },
+        {
+          "name": "H&H - Dinh dưỡng tối ưu",
+          "platform": "zalo",
+          "inbox": 1078,
+          "comments": 0,
+          "phones": 38,
+          "conversion_rate": 3.53
+        },
+        {
+          "name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+          "platform": "facebook",
+          "inbox": 804,
+          "comments": 50,
+          "phones": 36,
+          "conversion_rate": 4.22
+        },
+        {
+          "name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+          "platform": "zalo",
+          "inbox": 340,
+          "comments": 0,
+          "phones": 23,
+          "conversion_rate": 6.76
+        },
+        {
+          "name": "H&H",
+          "platform": "pke_chat_plugin",
+          "inbox": 22,
+          "comments": 0,
+          "phones": 2,
+          "conversion_rate": 9.09
+        },
+        {
+          "name": "Nerci",
+          "platform": "pke_chat_plugin",
+          "inbox": 12,
+          "comments": 0,
+          "phones": 1,
+          "conversion_rate": 8.33
+        },
+        {
+          "name": "Cộng đồng Bác sĩ Dinh Dưỡng Việt Nam",
+          "platform": "facebook",
+          "inbox": 0,
+          "comments": 0,
+          "phones": 0,
+          "conversion_rate": 0.0
+        }
+      ],
+      "hourly": [
+        {
+          "hour": "00:00",
+          "inbox": 3,
+          "phones": 1
+        },
+        {
+          "hour": "01:00",
+          "inbox": 2,
+          "phones": 0
+        },
+        {
+          "hour": "02:00",
+          "inbox": 1,
+          "phones": 0
+        },
+        {
+          "hour": "03:00",
+          "inbox": 1,
+          "phones": 0
+        },
+        {
+          "hour": "04:00",
+          "inbox": 2,
+          "phones": 1
+        },
+        {
+          "hour": "05:00",
+          "inbox": 4,
+          "phones": 1
+        },
+        {
+          "hour": "06:00",
+          "inbox": 6,
+          "phones": 1
+        },
+        {
+          "hour": "07:00",
+          "inbox": 9,
+          "phones": 1
+        },
+        {
+          "hour": "08:00",
+          "inbox": 23,
+          "phones": 2
+        },
+        {
+          "hour": "09:00",
+          "inbox": 29,
+          "phones": 3
+        },
+        {
+          "hour": "10:00",
+          "inbox": 27,
+          "phones": 2
+        },
+        {
+          "hour": "11:00",
+          "inbox": 25,
+          "phones": 3
+        },
+        {
+          "hour": "12:00",
+          "inbox": 18,
+          "phones": 2
+        },
+        {
+          "hour": "13:00",
+          "inbox": 24,
+          "phones": 3
+        },
+        {
+          "hour": "14:00",
+          "inbox": 27,
+          "phones": 3
+        },
+        {
+          "hour": "15:00",
+          "inbox": 26,
+          "phones": 3
+        },
+        {
+          "hour": "16:00",
+          "inbox": 26,
+          "phones": 2
+        },
+        {
+          "hour": "17:00",
+          "inbox": 18,
+          "phones": 2
+        },
+        {
+          "hour": "18:00",
+          "inbox": 17,
+          "phones": 2
+        },
+        {
+          "hour": "19:00",
+          "inbox": 17,
+          "phones": 2
+        },
+        {
+          "hour": "20:00",
+          "inbox": 20,
+          "phones": 3
+        },
+        {
+          "hour": "21:00",
+          "inbox": 14,
+          "phones": 3
+        },
+        {
+          "hour": "22:00",
+          "inbox": 13,
+          "phones": 3
+        },
+        {
+          "hour": "23:00",
+          "inbox": 4,
+          "phones": 2
+        }
+      ]
     }
   },
   "days": {
@@ -925,7 +1409,58 @@
           "phones": 2
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 1026
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 401
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 178
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 133
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 89
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 66
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 44
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 44
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 5
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 2
+        }
+      ],
       "top_slowest": []
     },
     "2026-08-20": {
@@ -1167,7 +1702,58 @@
           "phones": 0
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 452
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 176
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 78
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 58
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 39
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 29
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 19
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 19
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 5
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 2
+        }
+      ],
       "top_slowest": []
     },
     "2026-08-21": {
@@ -1401,7 +1987,58 @@
           "phones": 1
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 446
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 174
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 77
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 58
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 38
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 29
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 19
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 19
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 6
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 2
+        }
+      ],
       "top_slowest": [
         {
           "page": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
@@ -1650,7 +2287,58 @@
           "phones": 1
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 678
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 265
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 118
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 88
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 59
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 44
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 29
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 29
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 4
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 1
+        }
+      ],
       "top_slowest": []
     },
     "2026-08-23": {
@@ -1876,7 +2564,58 @@
           "phones": 4
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 263
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 103
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 45
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 34
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 22
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 17
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 11
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 11
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 5
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 2
+        }
+      ],
       "top_slowest": []
     },
     "2026-08-24": {
@@ -2118,7 +2857,58 @@
           "phones": 1
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 307
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 120
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 53
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 40
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 26
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 20
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 13
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 13
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 3
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 1
+        }
+      ],
       "top_slowest": [
         {
           "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
@@ -2464,7 +3254,58 @@
           "phones": 0
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 287
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 112
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 49
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 37
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 24
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 18
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 12
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 12
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 3
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 1
+        }
+      ],
       "top_slowest": [
         {
           "page": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
@@ -2811,7 +3652,58 @@
           "phones": 0
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 248
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 97
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 43
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 32
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 21
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 16
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 10
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 10
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 3
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 1
+        }
+      ],
       "top_slowest": [
         {
           "page": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
@@ -3170,7 +4062,58 @@
           "phones": 0
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 253
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 99
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 44
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 33
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 22
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 16
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 11
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 11
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 3
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 1
+        }
+      ],
       "top_slowest": [
         {
           "page": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
@@ -3524,7 +4467,58 @@
           "phones": 0
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 258
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 100
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 44
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 33
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 22
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 16
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 11
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 11
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 3
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 1
+        }
+      ],
       "top_slowest": [
         {
           "page": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
@@ -3758,7 +4752,58 @@
           "phones": 0
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 186
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 73
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 32
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 24
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 16
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 12
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 8
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 8
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 2
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 1
+        }
+      ],
       "top_slowest": []
     },
     "2026-08-30": {
@@ -3978,7 +5023,58 @@
           "phones": 0
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 88
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 34
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 15
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 11
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 7
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 5
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 3
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 3
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 2
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 1
+        }
+      ],
       "top_slowest": []
     },
     "2026-08-31": {
@@ -4190,7 +5286,58 @@
           "phones": 0
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 112
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 44
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 19
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 14
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 9
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 7
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 4
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 4
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 2
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 1
+        }
+      ],
       "top_slowest": []
     },
     "2026-09-01": {
@@ -4392,7 +5539,58 @@
           "phones": 0
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 110
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 43
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 19
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 14
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 9
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 7
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 4
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 4
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 2
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 1
+        }
+      ],
       "top_slowest": []
     },
     "2026-09-02": {
@@ -4612,7 +5810,33 @@
           "phones": 0
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 13
+        },
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 8
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 1
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 1
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 1
+        }
+      ],
       "top_slowest": []
     },
     "2026-09-03": {
@@ -4848,7 +6072,58 @@
           "phones": 0
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 236
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 92
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 41
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 30
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 20
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 15
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 10
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 10
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 2
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 1
+        }
+      ],
       "top_slowest": []
     },
     "2026-09-04": {
@@ -5221,7 +6496,58 @@
           "phones": 1
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 393
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 153
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 68
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 51
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 34
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 25
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 17
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 17
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 6
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 2
+        }
+      ],
       "top_slowest": [
         {
           "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
@@ -5645,7 +6971,58 @@
           "phones": 0
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 260
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 102
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 45
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 34
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 22
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 17
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 11
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 11
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 3
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 1
+        }
+      ],
       "top_slowest": [
         {
           "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
@@ -6061,7 +7438,58 @@
           "phones": 3
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 458
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 179
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 79
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 59
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 39
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 29
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 19
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 19
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 4
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 1
+        }
+      ],
       "top_slowest": [
         {
           "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
@@ -6485,7 +7913,58 @@
           "phones": 3
         }
       ],
-      "dropoff_reasons": [],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 253
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 99
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 44
+        },
+        {
+          "tag": "tag_69",
+          "label": "F_Suy nghĩ thêm",
+          "count": 33
+        },
+        {
+          "tag": "tag_21",
+          "label": "F_Kinh Tế (Rào cản tài chính)",
+          "count": 22
+        },
+        {
+          "tag": "tag_26",
+          "label": "F_Sắp xếp thời gian",
+          "count": 16
+        },
+        {
+          "tag": "tag_64",
+          "label": "F_Giá cao",
+          "count": 11
+        },
+        {
+          "tag": "tag_29",
+          "label": "Trùng lặp",
+          "count": 11
+        },
+        {
+          "tag": "tag_62",
+          "label": "KBM (Không bắt máy)",
+          "count": 4
+        },
+        {
+          "tag": "tag_27",
+          "label": "F_Không tồn tại / Khóa máy",
+          "count": 1
+        }
+      ],
       "top_slowest": [
         {
           "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
