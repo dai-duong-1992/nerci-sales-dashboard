@@ -1020,6 +1020,9 @@
       if (tabId === 'predictor') {
         runPredictor();
       }
+      if (tabId === 'history') {
+        renderHistoryTab();
+      }
     }
 
     let currentSelectMode = 'day'; // 'day' or 'month'
@@ -1067,7 +1070,7 @@
 
     async function init() {
       try {
-        const res = await fetch('./dashboard_metrics.json');
+        const res = await fetch('./dashboard_metrics.json?t=' + Date.now());
         if (!res.ok) throw new Error("Fetch failed");
         DATA = await res.json();
       } catch (e) {
