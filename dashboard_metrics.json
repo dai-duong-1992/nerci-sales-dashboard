@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "NERCI Sales & SLA 30-Day & Monthly Multi-Channel Intelligence",
-    "updated_at": "2026-09-22 09:38:46 (GMT+7)",
+    "updated_at": "2026-09-22 09:46:01 (GMT+7)",
     "latest_date": "2026-09-21",
     "available_dates": [
       "2026-08-19",
@@ -14608,6 +14608,12 @@
           "avg_consultation_mins": 28.5,
           "channel_breakdown": [
             {
+              "channel_name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+              "inbox": 33,
+              "phones": 33,
+              "cr": 100.0
+            },
+            {
               "channel_name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
               "inbox": 6,
               "phones": 4,
@@ -14908,14 +14914,14 @@
           "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
           "staff": "Nguyễn Thiện Nhân",
           "frt_sec": 686,
-          "hour": "12:52",
+          "hour": "16:52",
           "status": "Vượt SLA"
         },
         {
           "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
           "staff": "Nguyễn Thiện Nhân",
           "frt_sec": 660,
-          "hour": "09:33",
+          "hour": "14:47",
           "status": "Vượt SLA"
         }
       ]
