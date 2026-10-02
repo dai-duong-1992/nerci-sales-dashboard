@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "NERCI Sales & SLA 30-Day & Monthly Multi-Channel Intelligence",
-    "updated_at": "2026-10-01 08:49:16 (GMT+7)",
-    "latest_date": "2026-09-30",
+    "updated_at": "2026-10-02 08:25:38 (GMT+7)",
+    "latest_date": "2026-10-01",
     "available_dates": [
       "2026-08-19",
       "2026-08-20",
@@ -46,17 +46,19 @@
       "2026-09-27",
       "2026-09-28",
       "2026-09-29",
-      "2026-09-30"
+      "2026-09-30",
+      "2026-10-01"
     ],
     "available_months": [
       "2026-08",
-      "2026-09"
+      "2026-09",
+      "2026-10"
     ],
-    "date_range": "2026-08-19 ➔ 2026-09-30 (43 Ngày từ Lark Base SSOT)"
+    "date_range": "2026-08-19 ➔ 2026-10-01 (44 Ngày từ Lark Base SSOT)"
   },
   "regression": {
     "slope": 0.17,
-    "intercept": 1.4,
+    "intercept": 1.5,
     "r2": 0.126,
     "pts": [
       {
@@ -359,24 +361,42 @@
         "y": 6.1,
         "total": 250,
         "sla_rate": 46.9
+      },
+      {
+        "x": 44,
+        "label": "10-01",
+        "y": 7.1,
+        "total": 191,
+        "sla_rate": 37.1
       }
     ],
     "future": [
       {
-        "x": 44,
+        "x": 45,
         "y": 9.0
       },
       {
-        "x": 45,
+        "x": 46,
         "y": 9.2
       },
       {
-        "x": 46,
-        "y": 9.4
+        "x": 47,
+        "y": 9.3
       }
     ]
   },
   "history": [
+    {
+      "date": "2026-10-01",
+      "touchpoints": 191,
+      "max_frt_sec": 5230,
+      "avg_frt_sec": 1951.3,
+      "median_frt_sec": 425.0,
+      "fail": 22,
+      "sla_rate": 37.1,
+      "phones": 9,
+      "cr": 4.71
+    },
     {
       "date": "2026-09-30",
       "touchpoints": 250,
@@ -1354,6 +1374,107 @@
         {
           "hour": "23:00",
           "inbox": 3,
+          "phones": 1
+        }
+      ]
+    },
+    "2026-10": {
+      "key": "2026-10",
+      "label": "Tháng 10/2026",
+      "days_count": 1,
+      "total_touchpoints": 191,
+      "phones_captured": 9,
+      "conversion_rate": 4.71,
+      "avg_frt_sec": 1951.3,
+      "median_frt_sec": 1365.9,
+      "sla_rate": 82.5,
+      "dropoff_reasons": [
+        {
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 12
+        },
+        {
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 9
+        },
+        {
+          "label": "Spam / Rác",
+          "count": 4
+        },
+        {
+          "label": "F_Hỏi ý kiến người thân",
+          "count": 3
+        },
+        {
+          "label": "F_Vướng thanh toán",
+          "count": 1
+        }
+      ],
+      "channels": [
+        {
+          "name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "platform": "facebook",
+          "inbox": 82,
+          "comments": 3,
+          "phones": 4,
+          "conversion_rate": 4.71
+        },
+        {
+          "name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "platform": "facebook",
+          "inbox": 64,
+          "comments": 3,
+          "phones": 3,
+          "conversion_rate": 4.48
+        },
+        {
+          "name": "H&H - Dinh dưỡng tối ưu",
+          "platform": "facebook",
+          "inbox": 36,
+          "comments": 1,
+          "phones": 1,
+          "conversion_rate": 2.7
+        }
+      ],
+      "hourly": [
+        {
+          "hour": "08:00",
+          "inbox": 14,
+          "phones": 0
+        },
+        {
+          "hour": "09:00",
+          "inbox": 21,
+          "phones": 1
+        },
+        {
+          "hour": "10:00",
+          "inbox": 25,
+          "phones": 1
+        },
+        {
+          "hour": "11:00",
+          "inbox": 20,
+          "phones": 1
+        },
+        {
+          "hour": "14:00",
+          "inbox": 27,
+          "phones": 1
+        },
+        {
+          "hour": "15:00",
+          "inbox": 23,
+          "phones": 1
+        },
+        {
+          "hour": "16:00",
+          "inbox": 20,
+          "phones": 0
+        },
+        {
+          "hour": "20:00",
+          "inbox": 29,
           "phones": 1
         }
       ]
@@ -18695,17 +18816,398 @@
           "status": "Vượt SLA"
         }
       ]
+    },
+    "2026-10-01": {
+      "date": "2026-10-01",
+      "kpis": {
+        "total_touchpoints": 191,
+        "customer_inbox": 183,
+        "customer_comments": 8,
+        "new_customers": 37,
+        "phones_captured": 9,
+        "phone_conversion_rate": 4.71,
+        "team_avg_frt_sec": 1951.3,
+        "team_median_frt_sec": 425.0,
+        "max_frt_sec": 5230,
+        "sla_pass": 169,
+        "sla_fail": 22,
+        "sla_rate": 37.1,
+        "closed_deals": 1,
+        "sql_leads": 6
+      },
+      "staff": [
+        {
+          "name": "Nguyễn Phương Uyên",
+          "touchpoints": 155,
+          "phones": 2,
+          "conversion_rate": 1.29,
+          "avg_frt_sec": 1219.4,
+          "median_frt_sec": 330.0,
+          "compliance_5m_pct": 40.0,
+          "avg_ongoing_turnaround_sec": 1036.5,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 34,
+              "phones": 9,
+              "cr": 26.5
+            }
+          ]
+        },
+        {
+          "name": "Nguyễn Thiện Nhân",
+          "touchpoints": 106,
+          "phones": 2,
+          "conversion_rate": 1.89,
+          "avg_frt_sec": 1127.1,
+          "median_frt_sec": 619.0,
+          "compliance_5m_pct": 44.4,
+          "avg_ongoing_turnaround_sec": 958.0,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+              "inbox": 14,
+              "phones": 6,
+              "cr": 42.9
+            },
+            {
+              "channel_name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+              "inbox": 3,
+              "phones": 3,
+              "cr": 100.0
+            },
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 1,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
+        },
+        {
+          "name": "Nguyễn Thị Hồng Yến",
+          "touchpoints": 98,
+          "phones": 2,
+          "conversion_rate": 2.04,
+          "avg_frt_sec": 767.6,
+          "median_frt_sec": 328.0,
+          "compliance_5m_pct": 42.9,
+          "avg_ongoing_turnaround_sec": 652.5,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 22,
+              "phones": 4,
+              "cr": 18.2
+            }
+          ]
+        },
+        {
+          "name": "Nguyễn Đang Hạ",
+          "touchpoints": 25,
+          "phones": 1,
+          "conversion_rate": 4.0,
+          "avg_frt_sec": 384.0,
+          "median_frt_sec": 384.0,
+          "compliance_5m_pct": 50.0,
+          "avg_ongoing_turnaround_sec": 326.4,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 6,
+              "phones": 2,
+              "cr": 33.3
+            }
+          ]
+        },
+        {
+          "name": "Nguyễn Vũ Bảo Như",
+          "touchpoints": 85,
+          "phones": 0,
+          "conversion_rate": 0.0,
+          "avg_frt_sec": 248.2,
+          "median_frt_sec": 260.5,
+          "compliance_5m_pct": 50.0,
+          "avg_ongoing_turnaround_sec": 211.0,
+          "avg_lead_to_sql_mins": 0,
+          "median_lead_to_sql_mins": 0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+              "inbox": 31,
+              "phones": 3,
+              "cr": 9.7
+            }
+          ]
+        },
+        {
+          "name": "Đặng Hoàng Anh Thư",
+          "touchpoints": 26,
+          "phones": 0,
+          "conversion_rate": 0.0,
+          "avg_frt_sec": 5614.9,
+          "median_frt_sec": 1021.5,
+          "compliance_5m_pct": 12.5,
+          "avg_ongoing_turnaround_sec": 4772.7,
+          "avg_lead_to_sql_mins": 0,
+          "median_lead_to_sql_mins": 0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 26,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
+        },
+        {
+          "name": "Hồ Dương Xuân Diệu",
+          "touchpoints": 4,
+          "phones": 0,
+          "conversion_rate": 0.0,
+          "avg_frt_sec": 0.0,
+          "median_frt_sec": 0.0,
+          "compliance_5m_pct": 75.0,
+          "avg_ongoing_turnaround_sec": 0.0,
+          "avg_lead_to_sql_mins": 0,
+          "median_lead_to_sql_mins": 0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": [
+            {
+              "channel_name": "H&H Nutrition - SP Dinh Dưỡng Y Học",
+              "inbox": 3,
+              "phones": 0,
+              "cr": 0.0
+            },
+            {
+              "channel_name": "H&H - Dinh dưỡng tối ưu (Zalo)",
+              "inbox": 1,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
+        },
+        {
+          "name": "Thảo My",
+          "touchpoints": 0,
+          "phones": 0,
+          "conversion_rate": 0.0,
+          "avg_frt_sec": 0.0,
+          "median_frt_sec": 0.0,
+          "compliance_5m_pct": 75.0,
+          "avg_ongoing_turnaround_sec": 0.0,
+          "avg_lead_to_sql_mins": 0,
+          "median_lead_to_sql_mins": 0,
+          "avg_consultation_mins": 0,
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 0,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
+        },
+        {
+          "name": "Nguyễn Châu Hồng Thủy",
+          "touchpoints": 0,
+          "phones": 0,
+          "conversion_rate": 0.0,
+          "avg_frt_sec": 0.0,
+          "median_frt_sec": 0.0,
+          "compliance_5m_pct": 75.0,
+          "avg_ongoing_turnaround_sec": 0.0,
+          "avg_lead_to_sql_mins": 0,
+          "median_lead_to_sql_mins": 0,
+          "avg_consultation_mins": 0,
+          "channel_breakdown": [
+            {
+              "channel_name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+              "inbox": 0,
+              "phones": 0,
+              "cr": 0.0
+            }
+          ]
+        }
+      ],
+      "channels": [
+        {
+          "name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "platform": "facebook",
+          "inbox": 82,
+          "comments": 3,
+          "phones": 4,
+          "conversion_rate": 4.71
+        },
+        {
+          "name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "platform": "facebook",
+          "inbox": 64,
+          "comments": 3,
+          "phones": 3,
+          "conversion_rate": 4.71
+        },
+        {
+          "name": "H&H - Dinh dưỡng tối ưu",
+          "platform": "facebook",
+          "inbox": 36,
+          "comments": 1,
+          "phones": 1,
+          "conversion_rate": 4.71
+        }
+      ],
+      "hourly": [
+        {
+          "hour": "08:00",
+          "inbox": 14,
+          "comment": 0,
+          "phones": 0
+        },
+        {
+          "hour": "09:00",
+          "inbox": 21,
+          "comment": 0,
+          "phones": 1
+        },
+        {
+          "hour": "10:00",
+          "inbox": 25,
+          "comment": 1,
+          "phones": 1
+        },
+        {
+          "hour": "11:00",
+          "inbox": 20,
+          "comment": 0,
+          "phones": 1
+        },
+        {
+          "hour": "14:00",
+          "inbox": 27,
+          "comment": 1,
+          "phones": 1
+        },
+        {
+          "hour": "15:00",
+          "inbox": 23,
+          "comment": 1,
+          "phones": 1
+        },
+        {
+          "hour": "16:00",
+          "inbox": 20,
+          "comment": 0,
+          "phones": 0
+        },
+        {
+          "hour": "20:00",
+          "inbox": 29,
+          "comment": 1,
+          "phones": 1
+        }
+      ],
+      "dropoff_reasons": [
+        {
+          "tag": "tag_19",
+          "label": "Chưa phản hồi (Ngưng chat)",
+          "count": 12
+        },
+        {
+          "tag": "tag_24",
+          "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+          "count": 9
+        },
+        {
+          "tag": "tag_18",
+          "label": "Spam / Rác",
+          "count": 4
+        },
+        {
+          "tag": "tag_25",
+          "label": "F_Hỏi ý kiến người thân",
+          "count": 3
+        },
+        {
+          "tag": "tag_68",
+          "label": "F_Vướng thanh toán",
+          "count": 1
+        }
+      ],
+      "top_slowest": [
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 5230,
+          "hour": "08:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 4799,
+          "hour": "10:47",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 3452,
+          "hour": "13:26",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 2146,
+          "hour": "16:24",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 2106,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 1105,
+          "hour": "11:20",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 938,
+          "hour": "14:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 918,
+          "hour": "11:33",
+          "status": "Vượt SLA"
+        }
+      ]
     }
   },
   "trend_30d": [
-    {
-      "date": "2026-09-01",
-      "touchpoints": 241,
-      "phones": 3,
-      "cr": 1.24,
-      "avg_frt_sec": 0.0,
-      "sla_rate": 75.0
-    },
     {
       "date": "2026-09-02",
       "touchpoints": 276,
@@ -18937,17 +19439,17 @@
       "cr": 6.4,
       "avg_frt_sec": 1164.8,
       "sla_rate": 46.9
+    },
+    {
+      "date": "2026-10-01",
+      "touchpoints": 191,
+      "phones": 9,
+      "cr": 4.71,
+      "avg_frt_sec": 1951.3,
+      "sla_rate": 37.1
     }
   ],
   "trend_7d": [
-    {
-      "date": "2026-09-24",
-      "touchpoints": 316,
-      "phones": 23,
-      "cr": 7.28,
-      "avg_frt_sec": 61335.8,
-      "sla_rate": 54.1
-    },
     {
       "date": "2026-09-25",
       "touchpoints": 323,
@@ -18995,6 +19497,14 @@
       "cr": 6.4,
       "avg_frt_sec": 1164.8,
       "sla_rate": 46.9
+    },
+    {
+      "date": "2026-10-01",
+      "touchpoints": 191,
+      "phones": 9,
+      "cr": 4.71,
+      "avg_frt_sec": 1951.3,
+      "sla_rate": 37.1
     }
   ]
 }
